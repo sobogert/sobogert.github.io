@@ -1,0 +1,47 @@
+:root {
+    --border-color: #FF3EA5;
+    --pepto-pink: #f68fe0;
+    --other-pink: #F218A0;
+    --yellow: #F2D20C;
+    --bright-green: #B6F20C;
+    --purple: #DCD0FF;
+}
+body {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-color: var(--purple);
+    width: auto;
+    height: 570px;
+}
+h1 {
+    font-family: 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 40pt;
+}
+.second-container {
+    align-self: center;
+    display:flex;
+    background: none;
+    font-family: 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 60pt;
+    color: var(--yellow);
+    border: 3px var(--border-color);
+    text-shadow: 4px 4px var(--border-color), 1px 0px var(--border-color), 0px 1px var(--border-color), -1px -1px var(--border-color), -1px 0px var(--border-color), 0px -1px var(--border-color);
+}
+.second-container:active {
+    text-shadow: 1px 1px var(--border-color), 1px 0px var(--border-color), 0px 1px var(--border-color), -1px -1px var(--border-color), -1px 0px var(--border-color), 0px -1px var(--border-color);
+    transform: translate(3px, 3px);
+}
+.welcome-container {
+    display:flex;
+    border: 11px solid var(--border-color);
+    border-radius: 19px;
+    width: fit-content;
+    align-items: flex-start;
+    margin: auto;
+    margin-top:15%;
+    padding-inline: 19px;
+    background-color: var(--yellow);
+}
