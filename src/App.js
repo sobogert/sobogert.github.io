@@ -7,7 +7,7 @@ function App() {
             <nav class="navbar-bkgd">
                 <ul class="nav-list">
                     <div class="hey-world">
-                        <h2 class="special-h2">Hover Me</h2>
+                        <h2 class="special-h2">Sophia Bogert</h2>
                     </div>
                     <li><a href="#projects">Projects + Xp</a></li>
                     <li><a href="#fun">Fun Things</a></li>
