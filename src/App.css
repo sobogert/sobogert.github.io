@@ -4,8 +4,8 @@ html {
     --other-pink: #F218A0;
     --yellow: #F2D20C;
     --bright-green: #B6F20C;
-    --background: #dcd0ff;
-    --background-grad: linear-gradient(180deg, #B69DFF 0%, #FFB69D 50%, #9DFFB6 100%);
+    --background: rgb(220,208,255);
+    --background-grad: linear-gradient(180deg, #dcd0ff 0%, #ffdcd0 50%, #d0ffdc 100%);
 }
 body {
     display: flex;
@@ -36,12 +36,10 @@ body {
 	top: 0;
     cursor: url("pixelcursor.cur");
     background: none;
-    filter: none;
 }
 .footer {
     display: flex;
 	background: none;
-    filter: none;
 }
 
 .special-h2 {
