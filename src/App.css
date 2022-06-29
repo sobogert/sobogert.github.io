@@ -1,6 +1,11 @@
-* {
+.big-papa {
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: var(--background);
+    background: var(--background-grad);
+	border: 5px solid black;
 }
 
 .navbar {
@@ -13,13 +18,12 @@
 }
 
 .background {
-	background: rgb(255, 255, 255);
 	background-blend-mode: darken;
 	background-size: cover;
 }
 
 .footer {
-background-color: #000;
+	background-color: #000;
 }
 
 .nav-list {

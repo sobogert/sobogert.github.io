@@ -4,15 +4,16 @@
     --other-pink: #F218A0;
     --yellow: #F2D20C;
     --bright-green: #B6F20C;
-    --purple: #DCD0FF;
+    --background: rgb(220,208,255);
+    --background-grad: linear-gradient(180deg, rgba(220,208,255,1) 0%, rgba(255,220,208,1) 50%, rgba(208,255,220,1) 100%);
 }
+
 body {
     display:flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    background-color: var(--purple);
+    
     width: auto;
-    height: 570px;
 }
 h1 {
     font-family: 'Helvetica', 'Arial Narrow', Arial, sans-serif;
