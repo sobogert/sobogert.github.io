@@ -25,7 +25,8 @@ body {
     cursor: url("pixelcursor.cur");
 	padding: 0;
 	background: var(--background);
-    background: var(--background-grad);
+    background: var(--background-grad), url(https://grainy-gradients.vercel.app/noise.svg);
+    
 }
 
 .navbar {
