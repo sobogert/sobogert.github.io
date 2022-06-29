@@ -26,7 +26,6 @@ body {
 	padding: 0;
 	background: var(--background);
     background: var(--background-grad), url(https://grainy-gradients.vercel.app/noise.svg);
-    filter: contrast(170%) brightness(1000%);
 }
 
 .navbar {
