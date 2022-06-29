@@ -11,7 +11,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    cursor:pointer;
+    /* cursor: url("pixelcursor.png"); */
     font-family: HK Grotesk,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;
     font-weight: bold;
     font-size: 20 pt;
