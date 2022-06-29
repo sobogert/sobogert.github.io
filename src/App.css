@@ -37,6 +37,7 @@ body {
     cursor: url("pixelcursor.cur");
 }
 .footer {
+    display: flex;
 	background: none;
 }
 
@@ -66,10 +67,6 @@ body {
 	text-shadow: 1px 1px var(--yellow), -1px -1px var(--yellow);
 }
 
-.rightnav {
-	width: 30%;
-	text-align: right;
-}
 
 .box-main {
 	display: flex;
@@ -99,14 +96,6 @@ body {
 	font-size: 18px;
 }
 
-.btn {
-    margin-left: 20px;
-    height: 33px;
-    width: 70px;
-    color: #fff;
-    background-color: #000;
-    cursor: url("pixelcursor.cur");
-}
 
 .section {
 	height: 200px;
