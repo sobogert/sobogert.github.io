@@ -8,70 +8,64 @@ html {
 
     --green-p1: #DAFF7D;
     --green-p2: #B2EF9B;
-    --rssn-grn: #82a183;
+    --green-p3: #81A082;
 
-    --t1-blk: #000000;
-    --t1-bby-pow: #FFFFFC;
-    --t1-lime: #B6F20C;
-    --t1-amber: #FF7F11;
-    --t1-red-orng: #FF3F00;
+    --thm1-blk: #000000ff;
+    --thm1-bby-pow: #fffffcff;
+    --thm1-lime: #b6f20cff;
+    --thm1-amber: #ff7f11ff;
+    --thm1-red-orng: #ff3f00ff;
 
-    --t2-dar: #DAFF7D;
-    --t2-granny: #B2EF9B;
-    --t2-rssn-grn: #82A183;
-    --t2-mrgold: #ECA72C;
-    --t2-flame: #EE5622;
-    --t2-indep: #505168;
-    --t2-drk-prp: #27233A;
-
-    --bkgnd: var(--t2-dar);
-    --grn-grad: linear-gradient(180deg, var(--t2-dar) 0%, var(--t2-granny) 50%, var(--t2-rssn-grn) 100%);
+    --thm2-dar: #daff7dff;
+    --thm2-granny: #b2ef9bff;
+    --thm2-mrgold: #eca72cff;
+    --thm2-flame: #ee5622ff;
+    --thm2-drk-prp: #27233aff;
+    
+    --background: rgb(220,208,255);
+    --background-grad: linear-gradient(180deg, #dcd0ff 0%, #ffdcd0 50%, #d0ffdc 100%);
 }
-
 body {
     display: flex;
     margin: 0;
     padding: 0;
+    cursor: url("pixelcursor.cur");
     font-family: HK Grotesk,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;
     font-weight: bold;
     font-size: 20 pt;
 }
-
 .big-papa {
     display:flex;
-    flex-flow:column nowrap;
+    flex-flow:column wrap;
     flex-basis: auto;
-    width: auto;
-    height: auto;
+    height: 100vw;
 	margin: 0;
+    cursor: url("pixelcursor.cur");
 	padding: 0;
-	background: var(--bckgnd);
+	background: var(--background);
+    background: var(--background-grad), url(https://grainy-gradients.vercel.app/noise.svg);
 }
 
 .navbar {
 	display: flex;
-    flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
-	width: 70%;
+	position: sticky;
 	top: 0;
-    background: var(--t2-granny);
-    box-shadow: 4px 4px var(--t2-rssn-grn);
+    cursor: url("pixelcursor.cur");
+    background: none;
 }
-
 .footer {
     display: flex;
-    align-self: center;
-    margin: auto;
 	background: none;
 }
 
 .special-h2 {
-    color: var(--t2-flame);
-    text-shadow: 2px 2px var(--t2-indep);
+    color: var(--other-pink);
 }
 
 .nav-list {
+	width: 70%;
 	display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;

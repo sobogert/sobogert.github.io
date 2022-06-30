@@ -4,7 +4,7 @@ import './App.css';
 function App() {
     return (
         <div class="big-papa">
-            <nav class="navbar-bkgd">
+            <nav class="navbar-bar">
                 <ul class="nav-list">
                     <div class="hey-world">
                         <h2 class="special-h2">Sophia Bogert</h2>
