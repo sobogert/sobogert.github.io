@@ -36,7 +36,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: HK Grotesk,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 20 pt;
 }
 
@@ -45,7 +45,7 @@ body {
     flex-flow:column nowrap;
     justify-content: center;
     align-content: space-between;
-    column-gap: 8%;
+    column-gap: 8px;
     flex-basis: auto;
     width: auto;
     height: auto;
@@ -59,21 +59,10 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 86%;
-	top: 0;
+    height: auto;
+    padding-block: 6px;
     background: var(--t2-granny);
     box-shadow: 3px 3px var(--t2-rssn-grn);
-}
-
-.footer {
-    display: flex;
-    flex-flow: column wrap;
-    margin: auto;
-	background: none;
-}
-
-.special-h2 {
-    color: var(--t2-flame);
-    text-shadow: 2px 2px var(--t2-indep);
 }
 
 .nav-list {
@@ -103,12 +92,26 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 86%;
+    height: fit-content;
+    padding-block: 12px;
     background: var(--t2-granny);
+}
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+	background: none;
+}
+
+.special-h2 {
+    color: var(--t2-flame);
+    text-shadow: 2px 2px var(--t2-indep);
 }
 
 .text-big {
 	font-weight: 800;
-	font-size: 90px;
+	font-size: 110pt;
     color: var(--t2-indep);
     text-shadow: 1px 1px var(--t2-mrgold);
     text-shadow: 2px 2px var(--t2-flame);
@@ -117,19 +120,13 @@ body {
 
 .text-medium {
 	font-weight: 800;
-	font-size: 40px;
+	font-size: 40pt;
     color: var(--t2-drk-prp);
     text-shadow: 2px 2px var(--t2-indep);
 }
 
 .text-small {
-	font-size: 18px;
-}
-
-.section {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	font-size: 18pt;
 }
 
 .text-footer {
@@ -138,5 +135,5 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
 	justify-content: center;
-	color: var(--other-pink);
+	color: var(--t2-flame);
 }
