@@ -24,8 +24,11 @@ html {
     --t2-indep: #505168;
     --t2-drk-prp: #27233A;
 
-    --bkgnd: var(--t2-dar);
     --grn-grad: linear-gradient(180deg, var(--t2-dar) 0%, var(--t2-granny) 50%, var(--t2-rssn-grn) 100%);
+}
+
+:root {
+    background: var(--t2-dar);
 }
 
 body {
@@ -45,7 +48,6 @@ body {
     height: auto;
 	margin: 0;
 	padding: 0;
-	background: var(--bckgnd);
 }
 
 .navbar {
@@ -61,7 +63,7 @@ body {
 
 .footer {
     display: flex;
-    align-self: center;
+    flex-flow: column wrap;
     margin: auto;
 	background: none;
 }

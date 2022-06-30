@@ -27,8 +27,8 @@ function App() {
                     </div>
                 </div>
             </section>
-            <footer className="footer">
-                <p className="text-footer">
+            <footer class="footer">
+                <p class="text-footer">
                     * Made with Love *
                 </p>
             </footer>
