@@ -14,10 +14,11 @@ function App() {
         </nav>
 
         <div class="box-main">
-            <h1 class="text-big">Hola Mundo</h1>
             <p class="text-small">
                 Hello World, my name is Sofi Bogert
             </p>
+            <h1 class="text-big">Hola Mundo</h1>
+
         </div>
 
         <footer class="footer">

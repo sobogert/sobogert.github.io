@@ -137,6 +137,7 @@ body {
 	font-size: 110pt;
     letter-spacing: 10px;
     word-spacing: 4px;
+    word-wrap: normal;
     color: var(--color-azure);
     text-shadow: 0px 6px var(--color-storm), 6px 0px var(--color-storm), 0px -6px var(--color-storm), -6px 0px var(--color-storm), 3px 2px var(--color-storm), -3px -3px var(--color-storm), -3px 3px var(--color-storm), 3px -3px var(--color-storm);
 }
