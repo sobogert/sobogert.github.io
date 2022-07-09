@@ -1,0 +1,165 @@
+html { 
+    --border-color: #FF3EA5;
+    --pepto-pink: #f68fe0;
+    --other-pink: #F218A0;
+    --baby-pink: #F8C7CC;
+    --yellow: #F2D20C;
+    --bright-green: #B6F20C;
+
+    --t1-blk: #000000;
+    --t1-bby-pow: #FFFFFC;
+    --t1-lime: #B6F20C;
+    --t1-amber: #FF7F11;
+    --t1-red-orng: #FF3F00;
+
+    --t2-dar: #DAFF7D;
+    --t2-granny: #B2EF9B;
+    --t2-rssn-grn: #82A183;
+    --t2-blu-jns: #5DA9E9;
+    --t2-lav: #D8DCFF;
+    --t2-blurp: #AEADF0;
+    --t2-inpurp: #5956E0;
+    --t2-mrgold: #ECA72C;
+    --t2-honey: #F6AE2D;
+    --t2-flame: #EE5622;
+    --t2-indep: #505168;
+    --t2-drk-prp: #27233A;
+    
+    --color-spot: #509bf5;
+    --color-azure: #3e8ef1;
+    --color-drk-azure: #1172EB;
+    --color-storm: #a4c9d8;
+    --color-tangerine: #ff4935;
+    --color-citric: #cdf567;
+    --color-sunflower: #ffbc4b;
+    --color-pink: #ffd0d5;
+    --color-salmon: #fb7ea8;
+    --color-factory-yellow: #ffe818;
+    --color-black: #171313;
+    --color-white: #fff;
+    --color-muted-black: #837e7e;
+
+    --grn-grad: linear-gradient(180deg, var(--t2-dar) 0%, var(--t2-granny) 50%, var(--t2-rssn-grn) 100%);
+    --red-grad: linear-gradient(180deg, var(--t1-amber) 0%, var(--t2-rssn-grn) 100%);
+}
+
+:root {
+    background: var(--color-sunflower);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Rubik', 'Ubuntu mono', Verdana, sans-serif;
+    font-size: 22pt;
+}
+
+.big-papa {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+	margin: 0;
+    background: none;
+}
+
+.navbar-box {
+	display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+    align-content: center;
+	width: 86%;
+    margin-block: 4%;
+    height: auto;
+    background: var(--color-salmon);
+    border-radius: 13px;
+    /* border: 1px solid var(--t2-rssn-grn); */
+}
+
+.hey-world {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list li {
+	list-style: none;
+    padding-inline: 32px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+    font-size: 28pt;
+    letter-spacing: 3px;
+    color: var(--color-storm);
+    text-shadow: 0px 4px var(--color-azure), 4px 0px var(--color-drk-azure), 0px -4px var(--color-drk-azure), -4px 0px var(--color-azure), 3px 3px var(--color-azure), -3px -3px var(--color-azure), -3px 3px var(--color-azure), 3px -3px var(--color-drk-azure);
+}
+
+.nav-list li a:hover {
+    color: var(--color-citric);
+}
+
+.box-main {
+	display: flex;
+    flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 86%;
+    height: fit-content;
+    padding-block: 12px;
+    background: var(--color-salmon);
+    border-radius: 13px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+	background: none;
+}
+
+.special-h2 {
+	font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2px;
+    color: var(--color-azure);
+    text-shadow: 0px 2px var(--t2-flame), 2px 0px var(--t2-flame), 0px -2px var(--t2-flame), -2px 0px var(--t2-flame), 1px 1px var(--t2-flame), -1px -1px var(--t2-flame), -1px 1px var(--t2-flame), 1px -1px var(--t2-flame);
+}
+
+.text-big {
+	font-weight: 900;
+	font-size: 110pt;
+    letter-spacing: 10px;
+    word-spacing: 4px;
+    color: var(--color-azure);
+    text-shadow: 0px 6px var(--color-storm), 6px 0px var(--color-storm), 0px -6px var(--color-storm), -6px 0px var(--color-storm), 3px 2px var(--color-storm), -3px -3px var(--color-storm), -3px 3px var(--color-storm), 3px -3px var(--color-storm);
+}
+
+.text-medium {
+	font-weight: 800;
+	font-size: 40pt;
+    color: var(--t2-drk-prp);
+    text-shadow: 2px 2px var(--t2-indep);
+}
+
+.text-small {
+	font-size: 18pt;
+    color: var(--color-black);
+    text-shadow: 0px 2px var(--color-spot), 2px 0px var(--color-tangerine), 0px -2px var(--color-tangerine), -2px 0px var(--color-spot), 1px 1px var(--color-spot), -1px -1px var(--color-spot), -1px 1px var(--color-spot), 1px -1px var(--color-tangerine);
+}
+
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+	display: flex;
+	justify-content: center;
+	color: var(--color-tangerine);
+}
