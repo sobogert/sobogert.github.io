@@ -4,17 +4,18 @@ import './App.css';
 function App() {
     return (
         <div class="big-papa">
-        <nav class="name-bar">
+        <div class="name-bar">
+            <h1>Sophia Bogert</h1>
+        </div>
+        <nav class="nav-box">
             <ul class="nav-list">
-                
+
                 <li><a href="#projects">Projects + Xp</a></li>
                 <li><a href="#fun">Fun Things</a></li>
                 <li><a href="#contact">Contact Me!</a></li>
             </ul>
         </nav>
-
         <div class="box-main">
-            <h1 class="text-big">Hola Mundo</h1>
             <p class="text-small">
                 Hello World, my name is Sofi Bogert
             </p>
