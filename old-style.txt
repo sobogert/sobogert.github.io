@@ -1,0 +1,132 @@
+html { 
+    --border-color: #FF3EA5;
+    --pepto-pink: #f68fe0;
+    --other-pink: #F218A0;
+    --baby-pink: #F8C7CC;
+    --yellow: #F2D20C;
+    --bright-green: #B6F20C;
+
+    --green-p1: #DAFF7D;
+    --green-p2: #B2EF9B;
+    --green-p3: #81A082;
+
+    --thm1-blk: #000000ff;
+    --thm1-bby-pow: #fffffcff;
+    --thm1-lime: #b6f20cff;
+    --thm1-amber: #ff7f11ff;
+    --thm1-red-orng: #ff3f00ff;
+
+    --thm2-dar: #daff7dff;
+    --thm2-granny: #b2ef9bff;
+    --thm2-mrgold: #eca72cff;
+    --thm2-flame: #ee5622ff;
+    --thm2-drk-prp: #27233aff;
+    
+    --background: rgb(220,208,255);
+    --background-grad: linear-gradient(180deg, #dcd0ff 0%, #ffdcd0 50%, #d0ffdc 100%);
+}
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    cursor: url("pixelcursor.cur");
+    font-family: HK Grotesk,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+    font-weight: bold;
+    font-size: 20 pt;
+}
+.big-papa {
+    display:flex;
+    flex-flow:column wrap;
+    flex-basis: auto;
+    height: 100vw;
+	margin: 0;
+    cursor: url("pixelcursor.cur");
+	padding: 0;
+	background: var(--background);
+    background: var(--background-grad), url(https://grainy-gradients.vercel.app/noise.svg);
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+    cursor: url("pixelcursor.cur");
+    background: none;
+}
+.footer {
+    display: flex;
+	background: none;
+}
+
+.special-h2 {
+    color: var(--other-pink);
+}
+
+.nav-list {
+	width: 70%;
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+    color: var(--other-pink);
+}
+
+.nav-list li a:hover {
+	text-shadow: 1px 1px var(--yellow), -1px -1px var(--yellow);
+}
+
+
+.box-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	max-width: 80%;
+	margin: auto;
+	height: 80%;
+}
+
+.first-half {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text-big {
+	font-weight: 800;
+	font-size: 90px;
+    color: var(--other-pink);
+    text-shadow: 2px 2px 2px var(--yellow);
+}
+
+.text-small {
+	font-size: 18px;
+}
+
+
+.section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: var(--other-pink);
+}
