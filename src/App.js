@@ -4,7 +4,7 @@ import './App.css';
 function App() {
     return (
         <div class="big-papa">
-        <nav class="navbar-box">
+        <nav class="name-bar">
             <ul class="nav-list">
                 
                 <li><a href="#projects">Projects + Xp</a></li>

@@ -39,6 +39,31 @@ html {
     --color-white: #fff;
     --color-muted-black: #837e7e;
 
+    --1-gold: #D2AD42;
+    --1-green: #1F7241;
+    --1-space: #101444;
+
+    /* CSS HEX */
+    --sunray: #D7A75Aff;
+    --light-sky-blue: #9FD6FCff;
+    --maize-crayola: #EBBF43ff;
+    --pale-pink: #EACBC7ff;
+    --orange-red-crayola: #F66150ff;
+    --smoky-black: #0A0806ff;
+
+
+    /* SCSS Gradient */
+    --gradient-top: linear-gradient(0deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-right: linear-gradient(90deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-bottom: linear-gradient(180deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-left: linear-gradient(270deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-top-right: linear-gradient(45deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-bottom-right: linear-gradient(135deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-top-left: linear-gradient(225deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-bottom-left: linear-gradient(315deg, #D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+    --gradient-radial: radial-gradient(#D7A75Aff, #9FD6FCff, #EBBF43ff, #EACBC7ff, #F66150ff, #0A0806ff);
+
+
     --grn-grad: linear-gradient(180deg, var(--t2-dar) 0%, var(--t2-granny) 50%, var(--t2-rssn-grn) 100%);
     --red-grad: linear-gradient(180deg, var(--t1-amber) 0%, var(--t2-rssn-grn) 100%);
 }
@@ -54,6 +79,13 @@ body {
     font-size: 22pt;
 }
 
+.h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40pt;
+    color: #1F7241;
+    text-shadow: 2px 2px var(--1-gold);
+}
+
 .big-papa {
     display:flex;
     flex-flow:column nowrap;
@@ -65,7 +97,7 @@ body {
     background: none;
 }
 
-.navbar-box {
+.name-bar {
 	display: flex;
     flex-flow: row nowrap;
 	justify-content: space-between;
