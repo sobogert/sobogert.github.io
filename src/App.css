@@ -41,6 +41,13 @@ html {
 
     --1-gold: #D2AD42;
     --1-green: #1F7241;
+    --1-red: #A71F2D;
+    --1-orange: #BD6638;
+    --1-lorange: #EBB09C;
+    --1-lllorange: #FAECE7;
+    --1-llorange: #F5D8CE;
+    --1-lblue: #286BA2;
+    --1-black: #171614;
     --1-space: #101444;
 
     /* CSS HEX */
@@ -69,7 +76,7 @@ html {
 }
 
 :root {
-    background: var(--color-sunflower);
+    background: #FAECE7;
 }
 
 body {
@@ -80,10 +87,10 @@ body {
 }
 
 h1 {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Boxing', 'Rubik Mono One', sans-serif;
     font-size: 40pt;
     color: #1F7241;
-    text-shadow: 2px 2px var(--1-gold);
+    text-shadow: 3px 3px var(--1-gold);
 }
 
 .big-papa {
@@ -105,7 +112,6 @@ h1 {
 	width: 86%;
     margin-block: 4%;
     height: auto;
-    background: var(--color-salmon);
     border-radius: 13px;
     /* border: 1px solid var(--t2-rssn-grn); */
 }
@@ -137,6 +143,20 @@ h1 {
     color: var(--color-citric);
 }
 
+.pics-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 55%;
+    height: 180px;
+}
+.pic {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    box-shadow: 6px 6px var(--1-lorange);
+
+}
 .box-main {
 	display: flex;
     flex-flow: column nowrap;
@@ -145,7 +165,6 @@ h1 {
 	width: 86%;
     height: fit-content;
     padding-block: 12px;
-    background: var(--color-salmon);
     border-radius: 13px;
 }
 

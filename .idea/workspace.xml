@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/poop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +65,8 @@
       <workItem from="1657598273577" duration="45000" />
       <workItem from="1659145264143" duration="2780000" />
       <workItem from="1659149542760" duration="926000" />
+      <workItem from="1659673680917" duration="1404000" />
+      <workItem from="1659749803752" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659149124068</created>
