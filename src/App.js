@@ -16,11 +16,15 @@ function App() {
             </ul>
         </nav>
         <div className="pics-box">
+            <div class="pic-div">
             <img className="pic" style="align-self:flex-start" width="140" height="140"
                  src="../public/uranus-1986.jpg" alt="Image of Uranus' shadow from Voyager 2 (1986)"></img>
+            </div>
+            <div class="pic-div">
                 <img className="pic" style="align-self:flex-end" width="140" height="140"
                      src="https://cdn.mos.cms.futurecdn.net/vF2iCQbygk5PEQADvAJzF8-1024-80.jpg.webp"
                      alt="Image of the universe from Hubble (2014)"></img>
+            </div>
         </div>
 
         <div className="box-main">
