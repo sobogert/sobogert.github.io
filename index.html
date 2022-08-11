@@ -1,18 +1,89 @@
-<!doctype html>
-<head lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=yes">
-    <meta name="viewport" content="height=device-height,initial-scale=1,shrink-to-fit=yes">
-    <link rel="manifest" href="/manifest.json">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800" rel="stylesheet">
-    <link href="https://api.fontshare.com/v2/css?f[]=boxing@400&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/happy.ico">
-    <title>Home Page</title>
-    <script defer="defer" src="/static/js/main.5406ffa5.js"></script>
-    <link href="/static/css/main.40f37f48.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="viewport" content="height=device-height, initial-scale=1, shrink-to-fit=yes">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/happy.ico">
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@800' rel='stylesheet'>
+    <link rel="stylesheet" href="App.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Tourney:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=boxing@400&f[]=zodiak@1&f[]=space-grotesk@1&display=swap" rel="stylesheet">    <title>Hey from Sofi</title>
 </head>
 <body>
-    <div id="root">
+    <div class="big-papa" id="big-papa">
+        <div class="to-top-btn"><a href="#big-papa" style="color:#1F7241;text-decoration:none;margin-left:16px;">&#9759;</a></div>
 
+        <nav class="nav-box" style="width:90%">
+            <ul class="nav-list">
+
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#fun">Fun Things</a></li>
+                <li><a href="#contact">&#9993;</a></li>
+            </ul>
+        </nav>
+
+        <div class="papa-name-bar">
+            <div class="name-bar">
+                <h1 style="font-size: 70pt;color: #ff8ec7;text-shadow:6px 6px #45CB85;">Sophia Bogert</h1>
+            </div>
+        </div>
+        <div class="pics-box">
+
+            <div class="pic-box" style="align-self:flex-start;">
+                <img class="pic" style="align-self:flex-start;" width="140" height="140" src="../public/uranus-1986.jpg" alt="Image of Uranus' shadow from Voyager 2 (1986)">
+            </div>
+            <div class="pic-box" style="align-self:flex-end">
+                <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="140" height="140" src="https://cdn.mos.cms.futurecdn.net/vF2iCQbygk5PEQADvAJzF8-1024-80.jpg.webp" alt="Image of the universe from Hubble (2014)">
+            </div>
+            <div class="pic-box" style="align-self:flex-start">
+                <img class="pic" style="align-self:flex-start" width="140" height="140" src="https://images-assets.nasa.gov/image/as11-44-6551/as11-44-6551~thumb.jpg" alt="Image of the Earth as seen from the Moon (1969)">
+            </div>
+            <div class="pic-box" style="align-self:flex-end;" >
+                <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="140" height="140" src="../public/jupiter-1979.jpg" alt="Image of Jupiter from Voyager 2 (1979)">
+            </div>
+            <div class="pic-box" style="align-self:flex-start">
+                <img class="pic" style="align-self:flex-start" width="140" height="140" src="../public/neptune-1996.jpg" alt="Image of the Earth as seen from the Moon (1969)">
+            </div>
+        </div>
+        <div class="box-main">
+            <h1>About Me</h1>
+            <p > Hello, my name is Sophia Bogert. I'm a student at the University of Southern California studying Computer Science.
+            </p>
+            <h1 id="projects">Projects</h1>
+            <ul class="project-item" style="list-style-type: none;">
+                <li>Thermometer C</li>
+                <li>PDF Scraper C#</li>
+                <li>Amazon Food Service C++</li>
+                <li>Food Delivery Web App Java</li>
+                <li>Oil Calculator Python</li>
+            </ul>
+            <h1 id="fun">Some Things I Do for Fun</h1>
+            <p >Hello b****** and h***, some things I do for fun are:</p>
+            <ul style="list-style-type: none;">
+                <li>&#9758;  Your mom</li>
+                <li>&#9758;  Your dad</li>
+                <li>&#9758;  Making 2d animations</li>
+                <li>&#9758;  Playing guitar</li>
+                <li>&#9758;  Rowing</li>
+                <li>&#9758;  Rock Climbing</li>
+                <li>&#9758;  Website Building</li>
+            </ul>
+
+            <h1 id="contact">Contact Me!</h1>
+            <p class="text-small">Why do you need to talk to me?? <br>
+            My &#9993; is sophiabogert@gmail.com</p>
+        </div>
+
+        <footer class="footer">
+            <p class="text-footer">
+                &#10047; Made with Love &#10047;
+            </p>
+        </footer>
     </div>
 </body>
+</html>
