@@ -129,6 +129,15 @@ h1 {
     font-family: 'Rubik Mono One', 'Comic Sans MS', sans-serif;
 }
 
+.to-top-btn:active {
+    box-shadow: 0 -1px #F0CF65;
+    transform: translateY(6px);
+}
+
+.to-top-btn:hover, .to-top-btn:focus {
+    background-color: #87CEE7;
+}
+
 .papa-name-bar {
     position: relative;
     width: 80%;
