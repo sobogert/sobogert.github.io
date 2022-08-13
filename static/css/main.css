@@ -164,7 +164,6 @@ h1:hover {
     justify-content: center;
     border-radius: 13px;
     height: 144px;
-    border: 2px solid black;
     /*mix-blend-mode: difference;*/
     /*backdrop-filter: invert(100%);*/
     /*-webkit-backdrop-filter: invert(100%);*/
@@ -240,15 +239,15 @@ a {
 .pic-item {
     display: flex;
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     border: 1px solid var(--1-lorange);
     background: linear-gradient(305deg, rgb(245, 216, 206) 0%, rgb(108, 87, 77) 50%, rgb(249, 233, 227) 100%);
 }
 .pic {
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     margin-top: -7px;
     margin-left: -7px;
 }
