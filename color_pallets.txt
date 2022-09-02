@@ -20,3 +20,12 @@ Orchid - #C063E8
 Rorange - #FE5F55
 Green - #25D989
 Jet - #333333
+
+
+
+Mix??
+red - #E1333A
+yellow - #F8D912
+green - #64FA49 
+purple - #C063E8
+dark blue - #090540
