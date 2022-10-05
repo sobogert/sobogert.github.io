@@ -2,16 +2,147 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="stylesheet" href="./static/css/main.css">
-    <link href="https://api.fontshare.com/v2/css?f[]=alpino@1&f[]=zodiak@1&f[]=striper@400&f[]=array@600&f[]=chillax@1&f[]=outfit@1&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=alpino@1&f[]=zodiak@1&f[]=striper@400&f[]=array@600&f[]=chillax@1&f[]=outfit@1&f[]=switzer@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div class="intro-box">
-        <p> Hello, my name is </p> 
-        <h1> Sophia Bogert. </h1>
-        <p> My site is currently under construction, but will be here sooner than you think...</p>
-        <p><br><br>Until then, look at this cool color: </p>
-        <div class="box"> #BBF100</div>
-
+    <div class="intro-box" id="intro-box" onclick="closeAll()">
+        <h1> Sofi Bogert </h1>
+        <span class="material-symbols-outlined mode">
+            lunch_dining
+            </span>
     </div>
+        
+    <div class="main-content">
+        <div class="section about" id="about" onclick="abtExp()"> About Me </div>
+        <div class="section projects" id="projects" onclick="projExp()"> Projects </div>
+        <div class="section fun" id="fun" onclick="funExp()"> Fun </div>
+        <div class="section contact" id="contact" onclick="contactExp()"> Contact </div>
+    </div>
+    <footer>made with love 2022</footer>
+
+    <script>
+        // Close all boxes
+        function closeAll() {
+            abtNorm();
+            projNorm();
+            funNorm();
+            contactNorm();
+        }
+        // Expand the about section
+        function abtExp() {
+
+            projNorm();
+            funNorm();
+            contactNorm();
+
+            var about = document.getElementById("about");
+            about.style.height = "210px";
+            about.style.fontSize = "40px";
+            about.style.lineHeight = "50px";
+            about.style.paddingTop = "50px";
+            about.scrollIntoView();
+            about.innerHTML = "Hello, my name is Sophia Bogert." + 
+                " I'm a student at the University of Southern California studying Computer Science. "
+                + "I'm interested in UX/UI design and software development.";
+        }
+
+        // Idle about section
+        function abtNorm() {
+            var about = document.getElementById("about");
+            about.style.height = "30vh";
+            about.style.fontSize = "80px";
+            about.style.lineHeight = "30vh";
+            about.style.paddingTop = "0px";
+            about.innerHTML = "About";
+        }
+
+        // Expand the project section
+        function projExp() {
+            abtNorm();
+            funNorm();
+            contactNorm();
+
+            var project = document.getElementById("projects");
+            project.style.height = "100px";
+            project.style.fontSize = "40px";
+            project.style.lineHeight = "50px";
+            project.style.paddingTop = "50px";
+            project.scrollIntoView();
+            project.innerHTML = "Here are some projects I've done";
+        }
+
+        // Idle project section
+        function projNorm() {
+            var project = document.getElementById("projects");
+            project.style.height = "30vh";
+            project.style.fontSize = "80px";
+            project.style.lineHeight = "30vh";
+            project.style.paddingTop = "0px";
+            project.innerHTML = "Projects";
+        }
+
+        // Expand the fun section
+        function funExp() {
+            projNorm();
+            abtNorm();
+            contactNorm(); 
+
+            var fun = document.getElementById("fun");
+            fun.style.height = "150px";
+            fun.style.fontSize = "40px";
+            fun.style.lineHeight = "50px";
+            fun.style.paddingTop = "50px";
+            fun.scrollIntoView();
+            fun.innerHTML = "Here's what I do for fun <br>(hint: build this website) ";
+        }
+
+        // Idle fun section
+        function funNorm() {
+            var fun = document.getElementById("fun");
+            fun.style.height = "30vh";
+            fun.style.fontSize = "80px";
+            fun.style.lineHeight = "30vh";
+            fun.style.paddingTop = "0px";
+            fun.innerHTML = "Fun";
+        }
+
+        // Expand the contact section
+        function contactExp() {
+            projNorm();
+            funNorm();
+            abtNorm();
+
+            var contact = document.getElementById("contact");
+            contact.style.height = "100px";
+            contact.style.fontSize = "40px";
+            contact.style.lineHeight = "50px";
+            contact.style.paddingTop = "50px";
+            contact.scrollIntoView();
+            contact.innerHTML = "My email is bogertsophia@gmail.com";
+        }
+
+        // Idle contact section
+        function contactNorm() {
+            var contact = document.getElementById("contact");
+            contact.style.height = "30vh";
+            contact.style.fontSize = "80px";
+            contact.style.lineHeight = "30vh";
+            contact.style.paddingTop = "0px";
+            contact.innerHTML = "Contact";
+        }
+    </script>
+        <!-- Site ideas: 
+        welcome thing is a gif I drew (maybe that is in the background and the hello, im sofi is always there)
+    
+        blank with vertickle boxes that you hover and click to expand, color changes to comp
+        complimentary on hover, eacgh are a different color to show i like colors and I 
+        pick good color combos!
+        and it will look clean but cool
+
+        on click it goes full screen with the info, or almost full screen
+        everything in that section is monochrome with a pop of contrast color 
+    -->
+
 </body>
 </html>
