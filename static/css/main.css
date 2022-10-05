@@ -63,10 +63,10 @@ footer {
 .section {
     height: 30vh;
     width:100vw;
-    margin-top: -12px;
+    margin-top: -13px;
     padding-left: 4vw;
     font: 750 80px Outfit;
-    border: 12px solid #191919;
+    border: 13px solid #191919;
     line-height: 30vh;
 }
 
