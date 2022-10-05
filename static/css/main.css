@@ -23,19 +23,23 @@ h1 {
     font: 900 130px Outfit;
     letter-spacing: -2px;
     color: #191919;
-    margin-top: 6vh;
+}
+a {
+    text-decoration: none;
+    font: 700 30px Outfit;
+    color: #191919;
 }
 
 footer {
-    padding-right: 1vw;
+    padding-right: 2vw;
     text-align: right;
 }
 .intro-box {
     display: flex;
     flex-flow: row nowrap;
     width: 90 vw;
-    height:20vh;
-    margin-left: 2vw;
+    height: 200px;
+    margin: 0 2vw;
     justify-content: space-between;
 }
 
