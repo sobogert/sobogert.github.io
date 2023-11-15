@@ -115,7 +115,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
     margin: 0;
     padding: 0;
@@ -219,6 +219,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 
@@ -251,11 +252,11 @@ a {
       border-radius: 30px;
   }
   .nav-box {
-    height: 17%;
+    height: 10%;
   }
   .nav-list {
       flex-direction: column;
-      gap: 2px;
+      gap: 3px;
   }
 
   .box-main {
