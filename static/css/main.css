@@ -33,7 +33,6 @@ h1, h2 {
 h2 {
     margin-top: -65px;
     padding-top: 105px; 
-    margin-bottom: -10px;
     font-size: 32px;
     font-weight: 600;
     text-shadow: 3px 3px #E02B32;   
@@ -193,7 +192,7 @@ a {
     flex-wrap: wrap;
     width: 90%;
     gap: 5vw;
-    margin-block: 50px;
+    margin-bottom: 50px;
     justify-content: space-around;
 }
 .project-box {
@@ -246,19 +245,21 @@ a {
     font-size: 70px;
   }
   .name-bar {
-      height: 200px;
-      width: 1000px;
+      height: 194px;
+      width: 80%;
       border: 12px solid #64FA49;
       border-radius: 30px;
   }
   .nav-box {
-    height: 10%;
+    height: 20%;
   }
   .nav-list {
       flex-direction: column;
       gap: 3px;
   }
-
+  .to-top-btn {
+    visibility: hidden;
+  }
   .box-main {
       width: 90%;
       padding-block: 10px;
