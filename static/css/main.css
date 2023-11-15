@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Tabular', monospace, sans-serif;
-    font-size: 22pt;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     overflow-x: clip;
@@ -25,7 +25,6 @@ body {
 h1, h2 {
     font-family: 'Array', sans-serif;
     font-size: 120px;
-
     font-weight: 700;
     color: rgba(248,217,18,1);
     text-shadow: 5px 5px #E02B32;
@@ -35,7 +34,7 @@ h2 {
     margin-top: -95px;
     padding-top: 105px; 
     margin-bottom: -10px;
-    font-size: 40pt;
+    font-size: 32px;
     font-weight: 600;
     text-shadow: 3px 3px #E02B32;   
 }
