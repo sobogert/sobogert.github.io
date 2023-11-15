@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="added title">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +93,7 @@
       <workItem from="1682803894197" duration="1911000" />
       <workItem from="1691194275738" duration="362000" />
       <workItem from="1694629792383" duration="380000" />
-      <workItem from="1694644271586" duration="205000" />
+      <workItem from="1694644271586" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659149124068</created>
@@ -161,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660363158633</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added title">
+      <created>1694644529229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694644529229</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +191,7 @@
     <MESSAGE value="title change" />
     <MESSAGE value="downsize pics" />
     <MESSAGE value="changed icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed icon" />
+    <MESSAGE value="added title" />
+    <option name="LAST_COMMIT_MESSAGE" value="added title" />
   </component>
 </project>
