@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     text-align: center;
     overflow-x: clip;
+    font-size: 18px;
     -ms-overflow-style: none;  /* IE and Edge *!*/
     scrollbar-width: none;  /* Firefox *!*/
 }
@@ -69,7 +70,6 @@ input:checked + .slider:before {
     background: #090540;
     color: #61f349;
     font-family: 'Tabular', monospace, sans-serif;
-    font-size: 16px;
 }
 
 /* Color body theme */
@@ -77,7 +77,6 @@ input:checked + .slider:before {
     background: #F6EFEE;
     color: #1E1E24;
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
 }
 
 .color-theme .center-container {
@@ -100,11 +99,18 @@ h1, h2 {
     font-family: 'Fredoka', sans-serif;
 }
 
-
+.section {
+    margin-top: -65px;
+    margin-bottom: 30px;
+    padding-top: 105px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 h2 {
-    margin-top: -65px;
-    padding-top: 105px;
     font-size: 32px;
     font-weight: 600;
 }
@@ -279,7 +285,7 @@ a {
 }
 
 .tron-theme .nav-list li a {
-    font-family: 'Array', 'Rubik Mono One', 'Boxing', sans-serif;
+    font-family: 'Array', sans-serif;
     color: #C063E8;
     text-shadow: 3px 3px #E02B32;
 }
@@ -287,6 +293,12 @@ a {
 .tron-theme .nav-list li a:hover {
     color: rgba(248,217,18,1);
 }
+.tron-theme .nav-list li a:active {
+    color: #E02B32;
+    text-shadow: 3px 3px rgba(248,217,18,1);
+
+}
+
 
 .color-theme .nav-list li a {
     font-family: 'Fredoka', sans-serif;
@@ -367,13 +379,13 @@ a {
     width: 82%;
 }
 
-.color-theme #projects {
+.color-theme #projects h2 {
     color: #70B8FF;
 }
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     gap: 5vw;
     margin-bottom: 50px;
     justify-content: space-around;
@@ -402,26 +414,25 @@ a {
     align-items: center;
 }
 
-#fun {
-    color: #FDBA35;
-}
-
 .color-theme .fun-container {
     position: relative;
     height: 200px;
+    width: 100%;
 }
 .tron-theme .fun-background {
     display: none;
 }
 .color-theme .fun-background {
     position: absolute;
-    left: -441px;
+    left: 12%;
+    height: 200px;
+    width: 76%;
 }
 .color-theme .fun-items {
     position: absolute;
     width: 183px;
-    left: -98px;
-    top: 26px;
+    left: calc(57% - 183px);
+    top: 3%;
 }
 .fun-items {
   display: flex;
