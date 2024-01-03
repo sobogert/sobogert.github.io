@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/about-me-bkng.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/contact_circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fun_container.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/github_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/linkedin_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/star_border.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/top_arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +97,8 @@
       <workItem from="1691194275738" duration="362000" />
       <workItem from="1694629792383" duration="380000" />
       <workItem from="1694644271586" duration="340000" />
-      <workItem from="1704243073764" duration="17024000" />
+      <workItem from="1704243073764" duration="17272000" />
+      <workItem from="1704293789876" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659149124068</created>
