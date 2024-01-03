@@ -424,15 +424,15 @@ a {
 }
 .color-theme .fun-background {
     position: absolute;
-    left: 12%;
-    height: 200px;
-    width: 76%;
+    top: 0;
+    left: 141px;
+
 }
 .color-theme .fun-items {
     position: absolute;
     width: 183px;
-    left: calc(57% - 183px);
-    top: 3%;
+    left: 485px;
+    top: 6px;
 }
 .fun-items {
   display: flex;
@@ -470,7 +470,7 @@ a {
 .color-theme .contact-items {
     position: absolute;
     width: 201px;
-    top: 72px;
+    top: 49px;
     left: -100px;
 }
 .tron-theme .black-logo {
@@ -523,7 +523,7 @@ a {
         left: -12vh;
   }
   .nav-box {
-    height: 20%;
+    height: auto;
   }
   .nav-list {
       flex-direction: column;
