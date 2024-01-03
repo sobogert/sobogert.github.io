@@ -1,41 +1,116 @@
-:root {
-    background: #090540;
-}
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
-    color: var(--t2-blurp);
-
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Tabular', monospace, sans-serif;
-    font-size: 16px;
     font-weight: 400;
     text-align: center;
     overflow-x: clip;
-    color: #61f349;
     -ms-overflow-style: none;  /* IE and Edge *!*/
     scrollbar-width: none;  /* Firefox *!*/
 }
 
+/* Theme changing slider */
+.switch {
+    position: fixed;
+    right: 26px;
+    top: 100px;
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+    z-index: 100;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F6EFEE;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 26px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #FE5DA0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #090540;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #090540;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+
+/* Tron body theme */
+.tron-theme {
+    background: #090540;
+    color: #61f349;
+    font-family: 'Tabular', monospace, sans-serif;
+    font-size: 16px;
+}
+
+/* Color body theme */
+.color-theme {
+    background: #F6EFEE;
+    color: #1E1E24;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.color-theme .center-container {
+    position: relative;
+    height: 242px;
+    width: 860px;
+}
+
 h1, h2 {
-    font-family: 'Array', sans-serif;
     font-size: 120px;
     font-weight: 700;
+}
+.tron-theme h1, .tron-theme h2 {
+    font-family: 'Array', sans-serif;
     color: rgba(248,217,18,1);
     text-shadow: 5px 5px #E02B32;
 }
 
+.color-theme h1, .color-theme h2 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+
 h2 {
     margin-top: -65px;
-    padding-top: 105px; 
+    padding-top: 105px;
     font-size: 32px;
     font-weight: 600;
-    text-shadow: 3px 3px #E02B32;   
+}
+
+.tron-theme h2 {
+    text-shadow: 3px 3px #E02B32;
 }
 
 h3 {
@@ -66,18 +141,33 @@ a {
 .to-top-btn {
     position: fixed;
     bottom: 8%;
-    right: 1%;
-    height: 62px;
-    width: 62px;
+    right: 0;
+    height: 40px;
+    width: 96px;
     transform: rotate(90deg);
     text-shadow: 4px 0 #E02B32;
     font-size: 30px;
     font-weight: 700;
     justify-content: end;
     align-content: end;
-    font-family: 'Array', 'Rubik Mono One', 'Comic Sans MS', sans-serif;
+    font-family: 'Array', sans-serif;
+}
+.tron-theme .arrow {
+    display: none;
+}
+.color-theme .words {
+    display: none;
+}
+.color-theme .arrow {
+    position: absolute;
+    bottom: -20px;
+    left: 18px;
+}
+.color-theme .arrow-img {
+    transform: rotate(-90deg);
 }
 .landing-page {
+    position: relative;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -85,29 +175,61 @@ a {
     align-content: center;
     align-items: center;
 }
+
 .name-bar {
+    position: absolute;
+    top: 35vh;
+    left: 9vw;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    border-radius: 50px;
     height: 230px;
     width: 1100px;
-    border: 20px solid #64FA49;
     align-items: center;
-    /*mix-blend-mode: difference;*/
-    /*backdrop-filter: invert(100%);*/
-    /*-webkit-backdrop-filter: invert(100%);*/
 }
 
-.name-bar:hover {
+.color-theme .name-bar {
+    position: absolute;
+    top: 40vh;
+    left: 9vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 1100px;
+    align-items: center;
+    color: #BBF100;
+}
+
+.tron-theme .bordered {
+    display: none;
+}
+.color-theme .bordered {
+    color: #6D8812;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #6D8812;
+}
+
+.color-theme .name-border {
+    position: absolute;
+    top: 23vh;
+    left: 8vw;
+    height: 72.5%;
+}
+
+.tron-theme .name-bar {
+    border-radius: 50px;
+    border: 20px solid #64FA49;
+}
+
+.tron-theme .name-bar:hover {
   border: 20px solid #378045;
 }
 
-.name-bar:active {
-    transform: skewY(19deg);
-    letter-spacing: 7px;
-    font-weight: bolder;
+.tron-theme .name-border {
+    display: none;
 }
 
 .nav-box {
@@ -119,12 +241,24 @@ a {
     margin: 0;
     padding: 0;
     height: 13%;
-    background: #090540;
 }
-.nav-box:start {
-    background: #090540;
 
+.tron-theme .nav-box {
+    background: #090540;
 }
+
+.tron-theme .nav-box:start {
+    background: #090540;
+}
+
+.color-theme .nav-box {
+    background: #F6EFEE;
+}
+
+.color-theme .nav-box:start {
+    background: #F6EFEE;
+}
+
 .nav-list {
     width: 90%;
     margin-inline: auto;
@@ -140,15 +274,41 @@ a {
 }
 
 .nav-list li a {
-    font-family: 'Array', 'Rubik Mono One', 'Boxing', sans-serif;
     font-size: 30pt;
     font-weight: 600;
+}
+
+.tron-theme .nav-list li a {
+    font-family: 'Array', 'Rubik Mono One', 'Boxing', sans-serif;
     color: #C063E8;
     text-shadow: 3px 3px #E02B32;
 }
 
-.nav-list li a:hover {
+.tron-theme .nav-list li a:hover {
     color: rgba(248,217,18,1);
+}
+
+.color-theme .nav-list li a {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.color-theme .nav-projects {
+    color: #FF4000;
+}
+.color-theme .nav-projects:hover {
+    color: #AB340E;
+}
+.color-theme .nav-resume {
+    color: #9B7EDE;
+}
+.color-theme .nav-resume:hover {
+    color: #6D5A99;
+}
+.color-theme .nav-fun {
+    color: #70B8FF;
+}
+.color-theme .nav-fun:hover {
+    color: #5C92C9;
 }
 
 .pics-box {
@@ -187,6 +347,29 @@ a {
     border-radius: 13px;
 }
 
+.color-theme .about-me-title {
+    color: #FF4000;
+}
+
+.tron-theme .about-me-container {
+    display: none;
+}
+.color-theme .about-me-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.color-theme .about-me-paragraph {
+    position: absolute;
+    top: 74px;
+    left: 85px;
+    width: 82%;
+}
+
+.color-theme #projects {
+    color: #70B8FF;
+}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -206,6 +389,11 @@ a {
     border-radius: 13px;
     padding-inline: 2% 3%;
 }
+
+.color-theme .project-box {
+    background-color: #70B8FF;
+    border: 3px solid #5C92C9;
+}
 .project-header {
     display: flex;
     flex-flow: row nowrap;
@@ -214,13 +402,72 @@ a {
     align-items: center;
 }
 
-.fun-container {
+#fun {
+    color: #FDBA35;
+}
+
+.color-theme .fun-container {
+    position: relative;
+    height: 200px;
+}
+.tron-theme .fun-background {
+    display: none;
+}
+.color-theme .fun-background {
+    position: absolute;
+    left: -441px;
+}
+.color-theme .fun-items {
+    position: absolute;
+    width: 183px;
+    left: -98px;
+    top: 26px;
+}
+.fun-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
 }
 
+.color-theme .bordered-title {
+    position: relative;
+    width: 176px;
+    height: 32px;
+}
+.color-theme .contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #BBF100;
+
+}
+
+.color-theme .contact-container {
+    position: relative;
+    height: 270px;
+    top: 11vh;
+
+}
+.tron-theme .contact-background {
+    display: none;
+}
+.color-theme .contact-background {
+    position: absolute;
+    left: -120px;
+}
+.color-theme .contact-items {
+    position: absolute;
+    width: 201px;
+    top: 72px;
+    left: -100px;
+}
+.tron-theme .black-logo {
+    display: none;
+}
+.color-theme .green-logo {
+    display: none;
+}
 
 .footer {
     margin: auto;
@@ -230,12 +477,19 @@ a {
 .text-footer {
     text-align: center;
     padding: 30px 0;
-    font-family: 'Array', 'Rubik Mono One', 'Ubuntu', sans-serif;
     font-size: 20pt;
     display: flex;
     justify-content: center;
+}
+.tron-theme .text-footer {
+    font-family: 'Array', sans-serif;
     color: #E02B32;
     text-shadow: 2px 2px #C063E8;
+}
+.color-theme .text-footer {
+    font-family: 'Fredoka', sans-serif;
+    color: #9B7EDE;
+    font-weight: 600;
 }
 
 /* adjust contents for smaller screen sizes */
@@ -244,11 +498,18 @@ a {
   h1 {
     font-size: 70px;
   }
-  .name-bar {
+  .tron-theme .name-bar {
       height: 194px;
       width: 80%;
       border: 12px solid #64FA49;
       border-radius: 30px;
+  }
+    .color-theme .name-border {
+      height: 46%;
+  }
+    .color-theme .name-bar {
+      top: 27vh;
+        left: -12vh;
   }
   .nav-box {
     height: 20%;

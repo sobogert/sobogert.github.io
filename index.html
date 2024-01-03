@@ -9,212 +9,272 @@
   <meta name="keywords" content="Sofi Bogert, Sophia Bogert, Sophia, Bogert, Sofi, USC, Computer Science, Computer, Science, Developer, Designer, Full-Stack,
    Full-Stack Developer, Full Stack Developer, Student, portfolio">
   <link rel="shortcut icon" href="./static/assets/boogie.ico">
-  <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@800' rel='stylesheet'>
   <link rel="stylesheet" href="./static/css/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\<link href="https://api.fontshare.com/v2/css?f[]=spline-sans@400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Tourney:wght@500;600&display=swap" rel="stylesheet">
-  <link href="https://api.fontshare.com/v2/css?f[]=boxing@400&f[]=zodiak@1&f[]=space-grotesk@1&f[]=array@700,400,600&f[]=tabular@500&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Outfit&display=swap" rel="stylesheet">
+  <link  rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=boxing@400&f[]=zodiak@1&f[]=space-grotesk@1&f[]=array@700,400,600&f[]=tabular@500&display=swap">
+  <link  rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=boxing@400&f[]=zodiak@1&f[]=space-grotesk@1&f[]=array@700,400,600&f[]=tabular@500&display=swap">
+    <link  rel="preload" as="style" href="https://api.fontshare.com/v2/css?f[]=spline-sans@400&display=swap">
+    <link  rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=spline-sans@400&display=swap">
+    <link rel="script" href="./static/js/main.js">
 </head>
+<script>
+    /** Swap theme of page **/
+    function changeStyle() {
+        let checkVal = document.getElementById("_themeToggle").value;
+
+        if (checkVal === "tron")
+        {
+            document.getElementById("_themeToggle").value = "color";
+            document.getElementById("_theme").classList.add('color-theme');
+            document.getElementById("_theme").classList.remove('tron-theme');
+        }
+        else if (checkVal === "color")
+        {
+            document.getElementById("_themeToggle").value = "tron";
+            document.getElementById("_theme").classList.add('tron-theme');
+            document.getElementById("_theme").classList.remove('color-theme');
+        }
+    }
+</script>
 <body>
+  <div class="tron-theme" id="_theme">
     <!-- button to go to top of page -->
-    <div class="to-top-btn"><a href="#top-cheat" style="color:#C063E8;margin-left:16px;">TOP</a></div>
+    <div class="to-top-btn">
+        <a class="words" href="#top-cheat" style="color:#C063E8;margin-left:16px;">
+            TOP
+        </a>
+        <a class="arrow" href="#top-cheat" style="color:#C063E8;margin-left:16px;">
+            <img class="arrow-img" src="./static/assets/top_arrow.svg" alt="arrow to move to top of page" />
+        </a>
+    </div>
 
     <!-- navigation bar -->
     <nav class="nav-box">
-        <ul class="nav-list">
-            <li><a href="#projects">Projects</a></li>
-            <!-- <li><a href="./template/resume.html">Resume</a></li> -->
-            <li><a href="./static/assets/bogert_sophia_resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="#fun">Fun Things</a></li>
-        </ul>
+      <ul class="nav-list">
+        <li><a class="nav-projects" href="#projects">Projects</a></li>
+        <!-- <li><a href="./template/resume.html">Resume</a></li> -->
+        <li><a class="nav-resume" href="./static/assets/bogert_sophia_resume.pdf" target="_blank">Resume</a></li>
+        <li><a class="nav-fun" href="#fun">Fun Things</a></li>
+      </ul>
     </nav>
     <div id="top-cheat"></div>
+  <!-- toggle button for theme -->
+  <label class="switch">
+      <input type="checkbox" onclick="changeStyle()" id="_themeToggle" value="tron">
+      <span class="slider"></span>
+  </label>
     <div class="big-papa" id="big-papa">
 
-        <!-- name with link to fun site -->
-        <div class="landing-page">
-          <a href="https://www.music-map.com/" target="_blank" class="name-bar">
-            <h1>Sofi Bogert</h1>
-          </a>
-        </div>
+      <!-- name with link to fun site -->
+      <div class="landing-page">
+          <img class="name-border" src="./static/assets/star_border.svg" alt="Yellow star border around Sofi's name" />
+          <h1 class="name-bar bordered">Sofi Bogert</h1>
+          <h1 class="name-bar">Sofi Bogert</h1>
 
-        <!-- space pics
-        <div class="pics-box">
+          <!--      <a href="https://www.music-map.com/" target="_blank" class="name-bar">-->
+<!--        <h1>Sofi Bogert</h1>-->
+<!--      </a>-->
+      </div>
 
-            <div class="pic-item" style="align-self:flex-start;">
-                <img class="pic" style="align-self:flex-start;" width="150" height="150" src="./static/assets/uranus-1986.jpg" alt="Image of Uranus' shadow from Voyager 2 (1986)">
-            </div>
-            <div class="pic-item" style="align-self:flex-end">
-                <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="150" height="150" src="https://cdn.mos.cms.futurecdn.net/vF2iCQbygk5PEQADvAJzF8-1024-80.jpg.webp" alt="Image of the universe from Hubble (2014)">
-            </div>
-            <div class="pic-item" style="align-self:flex-start">
-                <img class="pic" style="align-self:flex-start" width="150" height="150" src="https://images-assets.nasa.gov/image/as11-44-6551/as11-44-6551~thumb.jpg" alt="Image of the Earth as seen from the Moon (1969)">
-            </div>
-            <div class="pic-item" style="align-self:flex-end;" >
-                <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="150" height="150" src="./static/assets/jupiter-1979.jpg" alt="Image of Jupiter from Voyager 2 (1979)">
-            </div>
-            <div class="pic-item" style="align-self:flex-start">
-                <img class="pic" style="align-self:flex-start" width="160" height="160" src="./static/assets/neptune-1996.jpg" alt="Image of the Earth as seen from the Moon (1969)">
-            </div>
-        </div>
-    -->
-        <div class="box-main">
-            <h2>About Me</h2>
-            <p> Hello, my name is Sophia Bogert. I'm a student at the University of Southern California studying Computer Science.
-              I'm interested in full-stack development and product design. Take a look around my site to learn a bit about me.
-            </p>
+      <!-- space pics
+      <div class="pics-box">
 
-            <!-- Projects -->
-            <h2 id="projects">Projects</h2>
-            <div class="projects-container">
-            
-                <!-- MoveIntel project -->
-                <div class="project-box">
-                  <div class="project-header">
-                      <h3> MoveIntel Website </h3>
-                      <a href="https://icons8.com/icon/108784/javascript" target="_blank">
-                          <img src="./static/assets/javascript_logo.png" alt="JavaScript logo by Icons8" width="48" height="48">
-                      </a>
-                  </div>
-                  <p> A private website for a physical therapy platform to connect practitioners with patients from anywhere.
-                    I worked with a team of 3 other students to continue full-stack development of the site. We used a VueJS framework,
-                    with Firestore and AWS S3 as databases for the project. 
-                    
-                  </p>
-                </div>
+          <div class="pic-item" style="align-self:flex-start;">
+              <img class="pic" style="align-self:flex-start;" width="150" height="150" src="./static/assets/uranus-1986.jpg" alt="Image of Uranus' shadow from Voyager 2 (1986)">
+          </div>
+          <div class="pic-item" style="align-self:flex-end">
+              <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="150" height="150" src="https://cdn.mos.cms.futurecdn.net/vF2iCQbygk5PEQADvAJzF8-1024-80.jpg.webp" alt="Image of the universe from Hubble (2014)">
+          </div>
+          <div class="pic-item" style="align-self:flex-start">
+              <img class="pic" style="align-self:flex-start" width="150" height="150" src="https://images-assets.nasa.gov/image/as11-44-6551/as11-44-6551~thumb.jpg" alt="Image of the Earth as seen from the Moon (1969)">
+          </div>
+          <div class="pic-item" style="align-self:flex-end;" >
+              <img class="pic" style="align-self:flex-end;margin-bottom:7px;margin-left:-7px;" width="150" height="150" src="./static/assets/jupiter-1979.jpg" alt="Image of Jupiter from Voyager 2 (1979)">
+          </div>
+          <div class="pic-item" style="align-self:flex-start">
+              <img class="pic" style="align-self:flex-start" width="160" height="160" src="./static/assets/neptune-1996.jpg" alt="Image of the Earth as seen from the Moon (1969)">
+          </div>
+      </div>
+  -->
+      <div class="box-main">
+          <h2 class="about-me-title">About Me</h2>
+          <div class="center-container">
+              <img class="about-me-container" src="./static/assets/about-me-bkng.svg" alt="red curvaceous background" />
+              <p class="about-me-paragraph"> Hello, my name is Sophia Bogert. I'm a recent graduate from the University of Southern California, where I studied Computer Science.
+                I'm interested in full-stack development and product design. Take a look around my site to learn a bit about me!
+              </p>
+          </div>
 
-                 <!-- Mark IV-B project -->
-                 <div class="project-box">
-                  <div class="project-header">
-                      <h3> Mark IV-B Website </h3>
-                      <a href="https://icons8.com/icon/108784/javascript" target="_blank">
-                          <img src="./static/assets/javascript_logo.png" alt="JavaScript logo by Icons8" width="48" height="48">
-                      </a>
-                  </div>
-                  <p> A private website for an Air Force program supported by Lockheed Martin to check the live
-                    statuses of satellites around the world. I moved the site from an outdated ASP.NET framework to 
-                    a React framework. I also redesigned the site to improve the user experience.
-                    
-                  </p>
-                </div>
-
-                <!-- oil calculator project -->
-                <div class="project-box">
-                  <div class="project-header">
-                      <h3> Premix Oil Calculator Site </h3>
-                      <a href="https://icons8.com/icon/13441/python" target="_blank">
-                          <img src="./static/assets/python_logo.png" alt="Python logo by Icons8" width="48" height="48">
-                      </a>
-                  </div>
-                  <p> A private website for Sunderstorm Inc. to generate measurements for use
-                      within the company's production process. 
-                      The website is built on a Flask framework and uses a firebase database.
-                  </p>
-              </div>
-              
-              <!-- parkour's edge  project -->
+          <!-- Projects -->
+          <h2 id="projects">Projects</h2>
+          <div class="projects-container">
+          
+              <!-- MoveIntel project -->
               <div class="project-box">
                 <div class="project-header">
-                    <h3> Parkour&#39;s Edge </h3>
+                  <h3> MoveIntel Website </h3>
+                  <a href="https://icons8.com/icon/108784/javascript" target="_blank">
+                    <img src="./static/assets/javascript_logo.png" alt="JavaScript logo by Icons8" width="48" height="48">
+                  </a>
+                </div>
+                <p> A private website for a physical therapy platform to connect practitioners with patients from anywhere.
+                  I worked with a team of 3 other students to continue full-stack development of the site. We used a VueJS framework,
+                  with Firestore and AWS S3 as databases for the project. 
+                  
+                </p>
+              </div>
+
+              <!-- Mark IV-B project -->
+              <div class="project-box">
+                <div class="project-header">
+                  <h3> Mark IV-B Website </h3>
+                  <a href="https://icons8.com/icon/108784/javascript" target="_blank">
+                    <img src="./static/assets/javascript_logo.png" alt="JavaScript logo by Icons8" width="48" height="48">
+                  </a>
+                </div>
+                <p> A private website for an Air Force program supported by Lockheed Martin to check the live
+                  statuses of satellites around the world. I moved the site from an outdated ASP.NET framework to
+                  a React framework. I also redesigned the site to improve the user experience.
+
+                </p>
+              </div>
+
+              <!-- oil calculator project -->
+              <div class="project-box">
+                <div class="project-header">
+                  <h3> Premix Oil Calculator Site </h3>
+                  <a href="https://icons8.com/icon/13441/python" target="_blank">
+                    <img src="./static/assets/python_logo.png" alt="Python logo by Icons8" width="48" height="48">
+                  </a>
+                </div>
+                <p> A private website for Sunderstorm Inc. to generate measurements for use
+                    within the company's production process. 
+                    The website is built on a Flask framework and uses a firebase database.
+                </p>
+            </div>
+
+            <!-- parkour's edge  project -->
+            <div class="project-box">
+              <div class="project-header">
+                <h3> Parkour&#39;s Edge </h3>
+                <a href="https://icons8.com/icon/40669/c++" target="_blank">
+                  <img src="./static/assets/cpp_logo.png" alt="C++ logo by Icons8" width="48" height="48">
+                </a>
+              </div>
+              <p> Built a multi-level 3D platformer game in C++ using the SDL library.
+                  The game features a custom physics engine and a custom collision detection system.
+              </p>
+          </div>
+
+              <!-- naive bayes classifier project -->
+              <div class="project-box">
+                <div class="project-header">
+                    <h3> Naive Bayes&#39; Classifier </h3>
                     <a href="https://icons8.com/icon/40669/c++" target="_blank">
                         <img src="./static/assets/cpp_logo.png" alt="C++ logo by Icons8" width="48" height="48">
                     </a>
                 </div>
-                <p> Built a multi-level 3D platformer game in C++ using the SDL library.
-                    The game features a custom physics engine and a custom collision detection system.
+                <p> Created a simple Naive Bayes&#39;Classifier to take in files of
+                    data for training, and calculates probability for classifications
+                    of objects based on given descriptions.
                 </p>
             </div>
 
-                <!-- naive bayes classifier project -->
-                <div class="project-box">
+              <!-- drink delivery android app -->
+              <div class="project-box">
                   <div class="project-header">
-                      <h3> Naive Bayes&#39; Classifier </h3>
-                      <a href="https://icons8.com/icon/40669/c++" target="_blank">
-                          <img src="./static/assets/cpp_logo.png" alt="C++ logo by Icons8" width="48" height="48">
+                      <h3> USCDoorDrink App </h3>
+                      <a href="https://icons8.com/icon/13679/java" target="_blank">
+                          <img src="./static/assets/java_logo.png" alt="Java logo by Icons8" width="48" height="48">
                       </a>
                   </div>
-                  <p> Created a simple Naive Bayes&#39;Classifier to take in files of
-                      data for training, and calculates probability for classifications
-                      of objects based on given descriptions.
+                  <p> An Android app for USC students to order coffee or tea anywhere 
+                      near campus. 
                   </p>
               </div>
 
-                <!-- drink delivery android app -->
-                <div class="project-box">
-                    <div class="project-header">
-                        <h3> USCDoorDrink App </h3>
-                        <a href="https://icons8.com/icon/13679/java" target="_blank">
-                            <img src="./static/assets/java_logo.png" alt="Java logo by Icons8" width="48" height="48">
-                        </a>
-                    </div>
-                    <p> An Android app for USC students to order coffee or tea anywhere 
-                        near campus. 
-                    </p>
-                </div>
+              <!-- thermometer project -->
+              <div class="project-box">
+                  <div class="project-header">
+                      <h3> Temperature Sensor </h3>
+                      <a href="https://icons8.com/icon/40670/c-programming" target="_blank">
+                          <img src="./static/assets/c_logo.png" alt="C logo by Icons8" width="48" height="48">
+                      </a>
+                  </div>
+                  <p> Built a temperature sensor and warning device compromised of an 
+                      Arduino, rotary encoder, DS18B20 temperature sensor, and various
+                      other components.<br>Developed software to display temperature
+                      changes and play tones for different temperature ranges from hot
+                      to cold, user is able to designate these temperature ranges
+                  </p>
+              </div> 
+              
+              <!-- pdf scraper project -->
+              <div class="project-box">
+                  <div class="project-header">
+                      <h3> PDF Scraper </h3>
+                      <a href="https://icons8.com/icon/45490/c-sharp-logo-2" target="_blank">
+                          <img src="./static/assets/cs_logo.png" alt="C# logo by Icons8" width="48" height="48">
+                      </a>
+                  </div>
+                  <p> A desktop application to scrape invoice data and export the parsed
+                      data to the company's ERP software.
+                      Uses advanced pdf scraping techniques to scrape unstructured data tables.
+                      I used this project to learn how to create desktop applications 
+                      and how to scrape pdfs. As a result, I ended up learning how to
+                      carry out the entire process in both Python and C#!
+                  </p>
+              </div>
+          </div>
 
-                <!-- thermometer project -->
-                <div class="project-box">
-                    <div class="project-header">
-                        <h3> Temperature Sensor </h3>
-                        <a href="https://icons8.com/icon/40670/c-programming" target="_blank">
-                            <img src="./static/assets/c_logo.png" alt="C logo by Icons8" width="48" height="48">
-                        </a>
-                    </div>
-                    <p> Built a temperature sensor and warning device compromised of an 
-                        Arduino, rotary encoder, DS18B20 temperature sensor, and various
-                        other components.<br>Developed software to display temperature
-                        changes and play tones for different temperature ranges from hot
-                        to cold, user is able to designate these temperature ranges
-                    </p>
-                </div> 
-                
-                <!-- pdf scraper project -->
-                <div class="project-box">
-                    <div class="project-header">
-                        <h3> PDF Scraper </h3>
-                        <a href="https://icons8.com/icon/45490/c-sharp-logo-2" target="_blank">
-                            <img src="./static/assets/cs_logo.png" alt="C# logo by Icons8" width="48" height="48">
-                        </a>
-                    </div>
-                    <p> A desktop application to scrape invoice data and export the parsed
-                        data to the company's ERP software.
-                        Uses advanced pdf scraping techniques to scrape unstructured data tables.
-                        I used this project to learn how to create desktop applications 
-                        and how to scrape pdfs. As a result, I ended up learning how to
-                        carry out the entire process in both Python and C#!
-                    </p>
-                </div>
+
+        <h2 id="fun">Some Things I Do for Fun</h2>
+          <div class="fun-container">
+              <img class="fun-background" src="./static/assets/fun_container.svg" alt="fun things container" />
+
+            <div class="fun-items">
+              <span>&#9758;  Creating 2d animations</span>
+              <span>&#9758;  Drumming</span>
+              <span>&#9758;  Rowing</span>
+              <span>&#9758;  Rock Climbing</span>
+              <span>&#9758;  Website Building</span>
             </div>
-
-
-            <h2 id="fun">Some Things I Do for Fun</h2>
-            <div class="fun-container">
-                <span>&#9758;  Creating 2d animations</span>
-                <span>&#9758;  Drumming</span>
-                <span>&#9758;  Rowing</span>
-                <span>&#9758;  Rock Climbing</span>
-                <span>&#9758;  Website Building</span>
-            </div>
-
-            <h2 id="contact">Contact Me!</h2>
-            <p> &#9993; bogertsophia@gmail.com</p>
-            <p>
-            <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank">
-                <img src="./static/assets/linkedin_logo.png" alt="Linkedin logo by Icons8 https://icons8.com/icon/114445/linkedin-circled" width="48" height="48">
-            </a>
-            <a href="https://github.com/sobogert" target="_blank">
-                <img src="./static/assets/github_logo.png" alt="Github logo by Icons8 https://icons8.com/icon/ARy6tFUfwclb/github" width="48" height="48">
-            </a>
-            
-            </p>
+          </div>
+        <div class="bordered-title">
+            <h2 id="contact" class="contact bordered" style="    color: #6D8812;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D8812;">Contact Me!</h2>
+            <h2 class="contact">Contact Me!</h2>
         </div>
 
-        <footer class="footer">
-            <p class="text-footer">
-                &#10047; Made with Love &#10047;
-            </p>
-        </footer>
+          <div class="contact-container">
+                <img class="contact-background" src="./static/assets/contact_circle.svg" alt="lime green circle background" />
+                <div class="contact-items">
+                    <p> &#9993; bogertsophia@gmail.com</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank">
+                            <img class="green-logo" src="./static/assets/linkedin_logo.png" alt="Linkedin logo by Icons8 https://icons8.com/icon/114445/linkedin-circled" width="48" height="48">
+                            <img class="black-logo" src="./static/assets/linkedin_logo.svg" alt="Linkedin logo by Icons8 https://icons8.com/icon/114445/linkedin-circled" width="48" height="48">
+                        </a>
+                        <a href="https://github.com/sobogert" target="_blank">
+                            <img class="green-logo" src="./static/assets/github_logo.png" alt="Github logo by Icons8 https://icons8.com/icon/ARy6tFUfwclb/github" width="48" height="48">
+                            <img class="black-logo" src="./static/assets/github_logo.svg" alt="Github logo by Icons8 https://icons8.com/icon/ARy6tFUfwclb/github" width="48" height="48">
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+      </div>
+
+      <footer class="footer">
+        <p class="text-footer">
+          &#10047; Made with Love &#10047;
+        </p>
+      </footer>
     </div>
+  </div>
 </body>
 </html>
