@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/assets/fun_background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/fun_background_small.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fun_container.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +102,9 @@
       <workItem from="1694629792383" duration="380000" />
       <workItem from="1694644271586" duration="340000" />
       <workItem from="1704243073764" duration="17272000" />
-      <workItem from="1704293789876" duration="5235000" />
+      <workItem from="1704293789876" duration="5294000" />
+      <workItem from="1704469750182" duration="2676000" />
+      <workItem from="1704485665893" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659149124068</created>

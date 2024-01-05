@@ -82,7 +82,7 @@ input:checked + .slider:before {
 .color-theme .center-container {
     position: relative;
     height: 242px;
-    width: 860px;
+    width: 78%;
 }
 
 h1, h2 {
@@ -178,34 +178,45 @@ a {
     height: 100vh;
     width: 100vw;
     justify-content: center;
-    align-content: center;
     align-items: center;
 }
+.tron-theme .name-border {
+    display: none;
+}
 
+.color-theme .name-border {
+    position: absolute;
+    left: 0;
+    width: 82%;
+    margin-left: 9%;
+}
 .name-bar {
     position: absolute;
-    top: 35vh;
-    left: 9vw;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    height: 230px;
-    width: 1100px;
     align-items: center;
+    font-size: 9vw;
+}
+
+.tron-theme .name-bar {
+    top: 35vh;
+    width: 82%;
+    height: 16vw;
+    border-radius: 50px;
+    border: 20px solid #64FA49;
+}
+
+.tron-theme .name-bar:hover {
+    border: 20px solid #378045;
 }
 
 .color-theme .name-bar {
-    position: absolute;
-    top: 40vh;
-    left: 9vw;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    height: 230px;
-    width: 1100px;
-    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     color: #BBF100;
 }
 
@@ -218,25 +229,7 @@ a {
     -webkit-text-stroke-color: #6D8812;
 }
 
-.color-theme .name-border {
-    position: absolute;
-    top: 23vh;
-    left: 8vw;
-    height: 72.5%;
-}
 
-.tron-theme .name-bar {
-    border-radius: 50px;
-    border: 20px solid #64FA49;
-}
-
-.tron-theme .name-bar:hover {
-  border: 20px solid #378045;
-}
-
-.tron-theme .name-border {
-    display: none;
-}
 
 .nav-box {
     position: fixed;
@@ -322,32 +315,6 @@ a {
 .color-theme .nav-fun:hover {
     color: #5C92C9;
 }
-
-.pics-box {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    width: 90%;
-    height: 230px;
-    background: none;
-    margin-inline: auto;
-}
-.pic-item {
-    display: flex;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: 1px solid var(--1-lorange);
-    background: linear-gradient(305deg, rgb(245, 216, 206) 0%, rgb(108, 87, 77) 50%, rgb(249, 233, 227) 100%);
-}
-.pic {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-top: -7px;
-    margin-left: -7px;
-}
-
 .box-main {
     display: flex;
     flex-flow: column nowrap;
@@ -375,7 +342,7 @@ a {
 .color-theme .about-me-paragraph {
     position: absolute;
     top: 74px;
-    left: 85px;
+    left: 9%;
     width: 82%;
 }
 
@@ -416,7 +383,7 @@ a {
 
 .color-theme .fun-container {
     position: relative;
-    height: 200px;
+    height: 270px;
     width: 100%;
 }
 .tron-theme .fun-background {
@@ -424,21 +391,24 @@ a {
 }
 .color-theme .fun-background {
     position: absolute;
-    top: 0;
-    left: 141px;
-
+    top:0;
+    left: 0;
+    height: 270px;
+    width: 100%;
+    background-color: #FDBA35;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 .color-theme .fun-items {
     position: absolute;
-    width: 183px;
-    left: 485px;
-    top: 6px;
+    width: 100%;
+    height: 100%;
 }
 .fun-items {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  justify-content: center;
 }
 
 .color-theme .bordered-title {
@@ -512,15 +482,16 @@ a {
   .tron-theme .name-bar {
       height: 194px;
       width: 80%;
+      font-size: 11vw;
       border: 12px solid #64FA49;
       border-radius: 30px;
   }
-    .color-theme .name-border {
-      height: 46%;
+  .color-theme .name-bar {
+      font-size: 12vw;
   }
-    .color-theme .name-bar {
-      top: 27vh;
-        left: -12vh;
+    .color-theme .name-border {
+      width: 88%;
+      margin-left: 6%;
   }
   .nav-box {
     height: auto;
@@ -543,4 +514,21 @@ a {
   .project-box {
       width: 100%;
   }
+
+
+    .color-theme .fun-container {
+        height: 300px;
+    }
+    .color-theme .fun-background {
+        height: 300px;
+    }
+
+
+}
+
+/* adjust contents for smaller screen sizes */
+@media screen and (max-width: 500px) {
+    .tron-theme .name-bar {
+        font-size: 16vw;
+    }
 }
