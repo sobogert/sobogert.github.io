@@ -81,7 +81,7 @@ input:checked + .slider:before {
 
 .color-theme .center-container {
     position: relative;
-    height: 242px;
+    height: auto;
     width: 78%;
 }
 
@@ -180,6 +180,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+.color-theme .landing-page {
+    height: 85vh;
+    margin-top: 15vh;
+}
 .tron-theme .name-border {
     display: none;
 }
@@ -206,10 +210,6 @@ a {
     height: 16vw;
     border-radius: 50px;
     border: 20px solid #64FA49;
-}
-
-.tron-theme .name-bar:hover {
-    border: 20px solid #378045;
 }
 
 .color-theme .name-bar {
@@ -337,13 +337,18 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .color-theme .about-me-paragraph {
-    position: absolute;
+    position: sticky;
     top: 74px;
     left: 9%;
     width: 82%;
+    margin-left: 9%;
+    margin-block: 10%;
+    z-index: 2;
 }
 
 .color-theme #projects h2 {
@@ -370,8 +375,20 @@ a {
 }
 
 .color-theme .project-box {
-    background-color: #70B8FF;
-    border: 3px solid #5C92C9;
+    position: relative;
+    background-color: unset;
+    border: none;
+    padding-inline: 0;
+    margin-inline: 2% 3%;
+
+}
+.tron-theme .project-background {
+    display: none;
+}
+.color-theme .project-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 .project-header {
     display: flex;
@@ -380,11 +397,21 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.color-theme .project-header {
+    z-index:2;
+    width:80%;
+    margin-inline: 10%;
+    margin-top: 8%;
+}
+.color-theme .project-content {
+    margin: 0 8% 8%;
+    z-index:2;
+}
 
 .color-theme .fun-container {
     position: relative;
     height: 270px;
-    width: 100%;
+    width: 76%;
 }
 .tron-theme .fun-background {
     display: none;
@@ -474,7 +501,7 @@ a {
 }
 
 /* adjust contents for smaller screen sizes */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
 
   h1 {
     font-size: 70px;
@@ -507,6 +534,10 @@ a {
       width: 90%;
       padding-block: 10px;
   }
+    .color-theme .about-me-paragraph {
+        margin-block: 30%;
+    }
+
   .projects-container {
       width: 100%;
       margin-top: 20px;
@@ -514,7 +545,9 @@ a {
   .project-box {
       width: 100%;
   }
-
+    .color-theme .project-content {
+        margin: 0 10% 10%;
+    }
 
     .color-theme .fun-container {
         height: 300px;
@@ -527,8 +560,12 @@ a {
 }
 
 /* adjust contents for smaller screen sizes */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .tron-theme .name-bar {
         font-size: 16vw;
+    }
+
+    .color-theme .about-me-paragraph {
+        margin-block: 44%;
     }
 }
