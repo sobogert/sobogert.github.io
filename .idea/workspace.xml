@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/color_hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/color_menu_exit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/c_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/cpp_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/cs_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/github_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/java_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/javascript_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/linkedin_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/logos/tron_logos/python_logo_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/tron_hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/tron_menu_exit.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/about-me-bkng.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/c_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/c_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/c_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/contact_circle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/cpp_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/cpp_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/cpp_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/cs_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/cs_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/cs_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/fun_background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/fun_background_small.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/github_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/github_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/github_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/java_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/java_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/java_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/javascript_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/javascript_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/javascript_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/jupiter-1979.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/linkedin_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/linkedin_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/linkedin_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/neptune-1996.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/python_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/python_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/logos/color_logos/python_logo_black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/top_arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/top_arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/universe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/uranus-1986.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +103,7 @@
       <workItem from="1704469750182" duration="2676000" />
       <workItem from="1704485665893" duration="4958000" />
       <workItem from="1704558903601" duration="6957000" />
-      <workItem from="1704583738437" duration="15370000" />
+      <workItem from="1704583738437" duration="15827000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1659149124068</created>

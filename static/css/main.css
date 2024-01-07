@@ -513,6 +513,10 @@ a {
   h1 {
     font-size: 70px;
   }
+    .color-theme .landing-page {
+        height: 100vh;
+        margin-top: 0;
+    }
   .tron-theme .name-bar {
       height: 194px;
       width: 80%;
