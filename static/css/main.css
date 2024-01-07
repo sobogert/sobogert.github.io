@@ -18,7 +18,7 @@ body {
 .switch {
     position: fixed;
     right: 26px;
-    top: 100px;
+    top: 78px;
     display: inline-block;
     width: 46px;
     height: 26px;
@@ -239,7 +239,6 @@ a {
     z-index: 10;
     margin: 0;
     padding: 0;
-    height: 13%;
 }
 
 .tron-theme .nav-box {
@@ -260,7 +259,8 @@ a {
 
 .nav-list {
     width: 90%;
-    margin-inline: auto;
+    margin-inline: 5%;
+    margin-block: 15px;
     padding: 0;
     display: flex;
     align-content: space-between;
@@ -502,7 +502,10 @@ a {
 
 /* adjust contents for smaller screen sizes */
 @media screen and (max-width: 992px) {
-
+    .switch {
+        top: 54px;
+        right: 20px;
+    }
   h1 {
     font-size: 70px;
   }
@@ -523,10 +526,18 @@ a {
   .nav-box {
     height: auto;
   }
+
   .nav-list {
-      flex-direction: column;
-      gap: 3px;
+      margin-block: 10px;
   }
+    .tron-theme .nav-list li a {
+        font-size: 24px;
+        text-shadow: 2px 2px #E02B32;
+    }
+    .color-theme .nav-list li a {
+        font-size: 26px;
+    }
+
   .to-top-btn {
     visibility: hidden;
   }
