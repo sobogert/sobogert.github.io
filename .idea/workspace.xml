@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sobogert.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/color-pals.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_pallets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old-style.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prev_interse4ct_tri_code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/alien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/bogert_sophia_resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/boogie.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/color_hamburger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/color_menu_exit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/happy.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/c_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/cpp_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/cs_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/github_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/java_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/javascript_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/linkedin_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/python_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/c_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/cpp_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/cs_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/github_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/java_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/javascript_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/linkedin_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/python_logo_green.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/star_border.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/top_arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/tron_hamburger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/tron_menu_exit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/designy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/innit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/designy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/innit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/navBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/titleSection.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/resume.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +80,7 @@
       <updated>1704646047859</updated>
       <workItem from="1704646049130" duration="26429000" />
       <workItem from="1704680749706" duration="6294000" />
-      <workItem from="1704687505904" duration="219000" />
+      <workItem from="1704687505904" duration="528000" />
     </task>
     <servers />
   </component>
