@@ -1,0 +1,77 @@
+.landing-page {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.color-theme .landing-page {
+    height: 85vh;
+    margin-top: 15vh;
+}
+.outline-thick {
+    -webkit-text-stroke-width: 3px;
+}
+.name-border {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.name-bar {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9vw;
+}
+
+.tron-theme .name-bar {
+    top: 35vh;
+    width: 97%;
+    height: 16vw;
+    border-radius: 50px;
+    border: 20px solid #64FA49;
+}
+
+.color-theme .name-bar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #BBF100;
+}
+
+@media screen and (max-width: 992px) {
+    .color-theme .landing-page {
+        height: 100vh;
+        margin-top: 0;
+    }
+    .bordered {
+        -webkit-text-stroke-width: 2px;
+    }
+    .name-border {
+        width: 100%;
+        margin-left: 0;
+    }
+    .tron-theme .name-bar {
+        height: 194px;
+        width: 90%;
+        font-size: 11vw;
+        border: 12px solid #64FA49;
+        border-radius: 30px;
+    }
+    .color-theme .name-bar {
+        font-size: 12vw;
+    }
+
+}
+
+/* adjust contents for smaller screen sizes */
+@media screen and (max-width: 600px) {
+    .tron-theme .name-bar {
+        font-size: 16vw;
+    }
+}

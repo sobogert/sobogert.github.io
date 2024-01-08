@@ -1,0 +1,32 @@
+.to-top-btn {
+    position: fixed;
+    bottom: 8%;
+    right: 0;
+    height: 55px;
+    width: 84px;
+    justify-content: end;
+    align-content: end;
+}
+.tron-theme .to-top-btn {
+    transform: rotate(90deg);
+    text-shadow: 2px 2px #E02B32;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Array', sans-serif;
+}
+.color-theme .to-top-btn {
+    width: 64px;
+    bottom: 9%;
+    right: 3px;
+}
+.words {
+    color:#C063E8;
+    margin-left:16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .to-top-btn {
+        visibility: hidden;
+    }
+}

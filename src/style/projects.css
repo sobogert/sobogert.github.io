@@ -1,0 +1,75 @@
+
+.color-theme #projects h2 {
+    color: #70B8FF;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5vw;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.project-box {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    text-align: left;
+    width: 40%;
+    background-color: #2c2957;
+    border: 3px solid #C063E8;
+    border-radius: 13px;
+    padding-inline: 2% 3%;
+}
+
+.color-theme .project-box {
+    position: relative;
+    background-color: unset;
+    border: none;
+    padding-inline: 0;
+    margin-inline: 2% 3%;
+
+}
+.tron-theme .project-background {
+    display: none;
+}
+.color-theme .project-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.project-header {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.color-theme .project-header {
+    z-index:2;
+    width:80%;
+    margin-inline: 10%;
+    margin-top: 8%;
+}
+.color-theme .project-content {
+    margin: 0 8% 8%;
+    z-index:2;
+}
+
+@media screen and (max-width: 992px) {
+    .projects-container {
+        width: 96%;
+        margin-top: 20px;
+        gap: 4vh;
+    }
+    .project-box {
+        width: 100%;
+        padding-inline: 15px;
+    }
+    .tron-theme .project-content {
+        margin-block: 4px 15px;
+    }
+    .color-theme .project-content {
+        margin: 0 10% 10%;
+    }
+}

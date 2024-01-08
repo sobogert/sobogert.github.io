@@ -1,0 +1,40 @@
+.fun-title {
+    color: #FDBA35;
+}
+.color-theme .fun-container {
+    position: relative;
+    height: 270px;
+    width: 76%;
+}
+.color-theme .fun-background {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 270px;
+    width: 100%;
+    background-color: #FDBA35;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.color-theme .fun-items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.fun-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* adjust contents for smaller screen sizes */
+@media screen and (max-width: 992px) {
+    .color-theme .fun-container {
+        height: 320px;
+        width: 98%;
+    }
+    .color-theme .fun-background {
+        height: 320px;
+    }
+}

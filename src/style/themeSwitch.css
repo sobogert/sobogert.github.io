@@ -1,0 +1,62 @@
+/* Theme changing slider */
+.switch {
+    position: fixed;
+    right: 17px;
+    top: 78px;
+    display: inline-block;
+    width: 52px;
+    height: 31px;
+    z-index: 100;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #090540;
+    border: 2px solid #F6EFEE;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 26px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 5px;
+    bottom: 4px;
+    background-color: #FE5DA0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+
+}
+input:checked + .slider {
+    background-color: #F6EFEE;
+    border: 2px solid #090540;
+}
+input:focus + .slider {
+    /*box-shadow: 0 0 1px #090540;*/
+    border: 2px solid #090540;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+}
+
+/* adjust contents for smaller screen sizes */
+@media screen and (max-width: 992px) {
+    .switch {
+        top: 22px;
+        left: 22px;
+    }
+}

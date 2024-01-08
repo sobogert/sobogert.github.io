@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="">
+    <list default="true" id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sobogert.github.io.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/color-pals.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_pallets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-style.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prev_interse4ct_tri_code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/alien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bogert_sophia_resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/boogie.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/color_hamburger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/color_menu_exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/happy.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/c_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/cpp_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/cs_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/github_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/java_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/javascript_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/linkedin_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/color_logos/python_logo_black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/c_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/cpp_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/cs_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/github_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/java_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/javascript_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/linkedin_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/logos/tron_logos/python_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/star_border.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/top_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/tron_hamburger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/tron_menu_exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/designy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/innit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/designy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/innit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/navBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/titleSection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resume.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -25,183 +74,66 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bh07DmvSdWpLvjPBfdWdp1paWz" />
+  <component name="ProjectId" id="2adQbTvPh2m2YA0XELcQuWuFXAy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sofib/sobogert.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sofib/temp_sobogert_site/src/assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sofib\temp_sobogert_site\src\assets" />
+      <recent name="C:\Users\sofib\temp_sobogert_site\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sofib\sobogert.github.io\static\assets" />
-      <recent name="C:\Users\sofib\sobogert.github.io\static\assets\logos\color_logos" />
-      <recent name="C:\Users\sofib\sobogert.github.io\static\assets\logos\tron_logos" />
-      <recent name="C:\Users\sofib\sobogert.github.io\static\assets\logos" />
-      <recent name="C:\Users\sofib\sobogert.github.io\static\css" />
+      <recent name="C:\Users\sofib\temp_sobogert_site\src\assets" />
+      <recent name="C:\Users\sofib\temp_sobogert_site\public" />
+      <recent name="C:\Users\sofib\temp_sobogert_site\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.Unnamed">
-    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="poop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sobogert.github.io/src/poop.html" useBuiltInWebServerPort="true">
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
-      <item itemvalue="JavaScript Debug.poop.html" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.poop.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c5716e1-43af-4d60-bb60-996cb8729ea4" name="Changes" comment="" />
-      <created>1657342839518</created>
+      <changelist id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="" />
+      <created>1704646047859</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657342839518</updated>
-      <workItem from="1657342841670" duration="2079000" />
-      <workItem from="1657598273577" duration="45000" />
-      <workItem from="1659145264143" duration="2780000" />
-      <workItem from="1659149542760" duration="926000" />
-      <workItem from="1659673680917" duration="1404000" />
-      <workItem from="1659749803752" duration="6817000" />
-      <workItem from="1659839006544" duration="19000" />
-      <workItem from="1659917541756" duration="9457000" />
-      <workItem from="1660019715302" duration="16507000" />
-      <workItem from="1660101064788" duration="1507000" />
-      <workItem from="1660103981498" duration="16335000" />
-      <workItem from="1660362762137" duration="1575000" />
-      <workItem from="1668926474295" duration="2157000" />
-      <workItem from="1669235765719" duration="653000" />
-      <workItem from="1682493029438" duration="443000" />
-      <workItem from="1682803894197" duration="1911000" />
-      <workItem from="1691194275738" duration="362000" />
-      <workItem from="1694629792383" duration="380000" />
-      <workItem from="1694644271586" duration="340000" />
-      <workItem from="1704243073764" duration="17272000" />
-      <workItem from="1704293789876" duration="5294000" />
-      <workItem from="1704469750182" duration="2676000" />
-      <workItem from="1704485665893" duration="4958000" />
-      <workItem from="1704558903601" duration="6957000" />
-      <workItem from="1704583738437" duration="17107000" />
+      <updated>1704646047859</updated>
+      <workItem from="1704646049130" duration="26429000" />
+      <workItem from="1704680749706" duration="6294000" />
+      <workItem from="1704687505904" duration="219000" />
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1659149124068</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659149124068</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1659149145042</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659149145042</updated>
-    </task>
-    <task id="LOCAL-00003" summary="pics added">
-      <created>1659838971015</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838971015</updated>
-    </task>
-    <task id="LOCAL-00004" summary="pics added">
-      <created>1659839013666</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839013666</updated>
-    </task>
-    <task id="LOCAL-00005" summary="she's beautiful">
-      <created>1660036343350</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1660036343350</updated>
-    </task>
-    <task id="LOCAL-00006" summary="refactor">
-      <created>1660189899872</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1660189899872</updated>
-    </task>
-    <task id="LOCAL-00007" summary="refactor">
-      <created>1660190742672</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1660190742672</updated>
-    </task>
-    <task id="LOCAL-00008" summary="title change">
-      <created>1660362942056</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660362942056</updated>
-    </task>
-    <task id="LOCAL-00009" summary="downsize pics">
-      <created>1660363158633</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660363158633</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added title">
-      <created>1694644529229</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1694644529229</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="pics added" />
-    <MESSAGE value="inverted header!" />
-    <MESSAGE value="she's beautiful" />
-    <MESSAGE value="refactor" />
-    <MESSAGE value="title change" />
-    <MESSAGE value="downsize pics" />
-    <MESSAGE value="changed icon" />
-    <MESSAGE value="added title" />
-    <option name="LAST_COMMIT_MESSAGE" value="added title" />
   </component>
 </project>

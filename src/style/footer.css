@@ -1,0 +1,23 @@
+
+.footer {
+    margin: auto;
+    background: none;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+}
+.tron-theme .text-footer {
+    font-family: 'Array', sans-serif;
+    color: #E02B32;
+    text-shadow: 1px 1px #C063E8;
+}
+.color-theme .text-footer {
+    font-family: 'Fredoka', sans-serif;
+    color: #9B7EDE;
+    font-weight: 600;
+}

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  text-align: center;
+  overflow-x: clip;
+  font-size: 18px;
+  -ms-overflow-style: none;  /* IE and Edge *!*/
+  scrollbar-width: none;  /* Firefox *!*/
+}
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+  height: fit-content;
+  background: none;
+}
+/* Tron body theme */
+.tron-theme {
+  background: #090540;
+  color: #61f349;
+  font-family: 'Tabular', monospace, sans-serif;
+}
+
+/* Color body theme */
+.color-theme {
+  background: #F6EFEE;
+  color: #1E1E24;
+  font-family: 'Outfit', sans-serif;
+}
+.outline {
+  color: #6D8812 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #6D8812;
+}
+
+.color-theme .center-container {
+  position: relative;
+  height: auto;
+  width: 78%;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+.tron-theme h1, .tron-theme h2 {
+  font-family: 'Array', sans-serif;
+  color: rgba(248,217,18,1);
+  text-shadow: 5px 5px #E02B32;
+}
+
+.tron-theme h2 {
+  text-shadow: 3px 3px #E02B32;
+}
+
+.color-theme h1, .color-theme h2 {
+  font-family: 'Fredoka', sans-serif;
+}
+.section {
+  margin-top: -65px;
+  margin-bottom: 30px;
+  padding-top: 105px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 70px;
+  }
+  .page {
+    width: 88%;
+  }
+}

@@ -1,0 +1,33 @@
+.color-theme .about-me-title {
+    color: #FF4000;
+}
+.color-theme .about-me-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.color-theme .about-me-paragraph {
+    position: sticky;
+    top: 74px;
+    left: 9%;
+    width: 82%;
+    margin-left: 9%;
+    margin-block: 10%;
+    z-index: 2;
+}
+
+@media screen and (max-width: 992px) {
+    .color-theme .about-me-paragraph {
+        margin-block: 30%;
+    }
+}
+
+/* adjust contents for smaller screen sizes */
+@media screen and (max-width: 600px) {
+    .color-theme .about-me-paragraph {
+        margin-block: 44%;
+    }
+}

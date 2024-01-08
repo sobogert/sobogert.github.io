@@ -1,0 +1,26 @@
+.color-theme .bordered-title {
+    position: relative;
+    width: 176px;
+    height: 32px;
+}
+.color-theme .contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #BBF100;
+}
+.color-theme .contact-container {
+    position: relative;
+    height: 270px;
+    top: 11vh;
+}
+.color-theme .contact-background {
+    position: absolute;
+    left: -120px;
+}
+.color-theme .contact-items {
+    position: absolute;
+    width: 201px;
+    top: 49px;
+    left: -100px;
+}
