@@ -30,7 +30,8 @@ export function ContactMe({ isTron }) {
                 <div className="contact-items">
                     <p> &#9993; bogertsophia@gmail.com</p>
                     <p>
-                        <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank">
+                        <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img  src={ linkedin_logo_green } alt="Linkedin logo by Icons8 https://icons8.com/icon/114445/linkedin-circled"
@@ -41,7 +42,8 @@ export function ContactMe({ isTron }) {
                             }
 
                         </a>
-                        <a href="https://github.com/sobogert" target="_blank">
+                        <a href="https://github.com/sobogert" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ github_logo_green } alt="Github logo by Icons8 https://icons8.com/icon/ARy6tFUfwclb/github"

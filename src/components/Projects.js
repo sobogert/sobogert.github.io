@@ -32,7 +32,8 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> MoveIntel Website </h3>
-                        <a href="https://icons8.com/icon/108784/javascript" target="_blank">
+                        <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
@@ -66,7 +67,8 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Mark IV-B Website </h3>
-                        <a href="https://icons8.com/icon/108784/javascript" target="_blank">
+                        <a href="https://icons8.com/icon/108784/javascript" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
@@ -98,7 +100,8 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> Premix Oil Calculator Site </h3>
-                        <a href="https://icons8.com/icon/13441/python" target="_blank">
+                        <a href="https://icons8.com/icon/13441/python" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ python_logo_green } alt="Python logo by Icons8"
@@ -131,7 +134,8 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Parkour&#39;s Edge </h3>
-                        <a href="https://icons8.com/icon/40669/c++" target="_blank">
+                        <a href="https://icons8.com/icon/40669/c++" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ cpp_logo_green } alt="C++ logo by Icons8"
@@ -162,7 +166,8 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Naive Bayes&#39; Classifier </h3>
-                        <a href="https://icons8.com/icon/40669/c++" target="_blank">
+                        <a href="https://icons8.com/icon/40669/c++" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ cpp_logo_green } alt="C++ logo by Icons8"
@@ -194,7 +199,8 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> USCDoorDrink App </h3>
-                        <a href="https://icons8.com/icon/13679/java" target="_blank">
+                        <a href="https://icons8.com/icon/13679/java" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ java_logo_green } alt="Java logo by Icons8"
@@ -225,7 +231,8 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Temperature Sensor </h3>
-                        <a href="https://icons8.com/icon/40670/c-programming" target="_blank">
+                        <a href="https://icons8.com/icon/40670/c-programming" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ c_logo_green } alt="C logo by Icons8"
@@ -258,7 +265,8 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> PDF Scraper </h3>
-                        <a href="https://icons8.com/icon/45490/c-sharp-logo-2" target="_blank">
+                        <a href="https://icons8.com/icon/45490/c-sharp-logo-2" target="_blank"
+                           rel="noreferrer">
                             {
                                 isTron ?
                                     <img src={ cs_logo_green } alt="C# logo by Icons8"
