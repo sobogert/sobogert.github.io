@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/firebase-hosting-merge.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <updated>1704646047859</updated>
       <workItem from="1704646049130" duration="26429000" />
       <workItem from="1704680749706" duration="6294000" />
-      <workItem from="1704687505904" duration="1763000" />
+      <workItem from="1704687505904" duration="2277000" />
     </task>
     <servers />
   </component>
