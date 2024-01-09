@@ -27,6 +27,9 @@
     align-items: center;
     justify-content: center;
 }
+.color-theme .fun-items {
+    color: #564529;
+}
 
 /* adjust contents for smaller screen sizes */
 @media screen and (max-width: 992px) {

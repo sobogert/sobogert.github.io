@@ -13,9 +13,9 @@ export function ThemeSwitch({ isTron, setIsTron }) {
         setIsTron(!isTron);
     }
     return (
-        <label Class="switch">
+        <label className="switch">
             <input type="checkbox"  onChange={changeStyle} id="_themeToggle" />
-                <span Class="slider"></span>
+                <span className="slider"></span>
         </label>
     );
 }

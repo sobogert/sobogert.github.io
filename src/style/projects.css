@@ -28,7 +28,7 @@
     border: none;
     padding-inline: 0;
     margin-inline: 2% 3%;
-
+    color: #2E3C4E;
 }
 .tron-theme .project-background {
     display: none;
@@ -47,8 +47,8 @@
 }
 .color-theme .project-header {
     z-index:2;
-    width:80%;
-    margin-inline: 10%;
+    width:84%;
+    margin-inline: 8%;
     margin-top: 8%;
 }
 .color-theme .project-content {

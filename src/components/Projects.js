@@ -1,16 +1,16 @@
 import '../style/projects.css';
 import c_logo_green from '../assets/logos/tron_logos/c_logo_green.svg';
-import c_logo_black from '../assets/logos/color_logos/c_logo_black.svg';
+import c_logo_color from '../assets/logos/color_logos/c_logo_color.svg';
 import cs_logo_green from '../assets/logos/tron_logos/cs_logo_green.svg';
-import cs_logo_black from '../assets/logos/color_logos/cs_logo_black.svg';
+import cs_logo_color from '../assets/logos/color_logos/cs_logo_color.svg';
 import cpp_logo_green from '../assets/logos/tron_logos/cpp_logo_green.svg';
-import cpp_logo_black from '../assets/logos/color_logos/cpp_logo_black.svg';
+import cpp_logo_color from '../assets/logos/color_logos/cpp_logo_color.svg';
 import java_logo_green from '../assets/logos/tron_logos/java_logo_green.svg';
-import java_logo_black from '../assets/logos/color_logos/java_logo_black.svg';
+import java_logo_color from '../assets/logos/color_logos/java_logo_color.svg';
 import javascript_logo_green from '../assets/logos/tron_logos/javascript_logo_green.svg';
-import javascript_logo_black from '../assets/logos/color_logos/javascript_logo_black.svg';
+import javascript_logo_color from '../assets/logos/color_logos/javascript_logo_color.svg';
 import python_logo_green from '../assets/logos/tron_logos/python_logo_green.svg';
-import python_logo_black from '../assets/logos/color_logos/python_logo_black.svg';
+import python_logo_color from '../assets/logos/color_logos/python_logo_color.svg';
 
 export function Projects({ isTron }) {
     return (
@@ -39,7 +39,7 @@ export function Projects({ isTron }) {
                                     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ javascript_logo_black } alt="JavaScript logo by Icons8"
+                                    <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -74,7 +74,7 @@ export function Projects({ isTron }) {
                                     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ javascript_logo_black } alt="JavaScript logo by Icons8"
+                                    <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -107,7 +107,7 @@ export function Projects({ isTron }) {
                                     <img src={ python_logo_green } alt="Python logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ python_logo_black } alt="Python logo by Icons8"
+                                    <img src={ python_logo_color } alt="Python logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -141,7 +141,7 @@ export function Projects({ isTron }) {
                                     <img src={ cpp_logo_green } alt="C++ logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ cpp_logo_black } alt="C++ logo by Icons8"
+                                    <img src={ cpp_logo_color } alt="C++ logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -173,7 +173,7 @@ export function Projects({ isTron }) {
                                     <img src={ cpp_logo_green } alt="C++ logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ cpp_logo_black } alt="C++ logo by Icons8"
+                                    <img src={ cpp_logo_color } alt="C++ logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -206,7 +206,7 @@ export function Projects({ isTron }) {
                                     <img src={ java_logo_green } alt="Java logo by Icons8"
                                          width={48} height={48} />
                                     :
-                                    <img src={ java_logo_black } alt="Java logo by Icons8"
+                                    <img src={ java_logo_color } alt="Java logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
@@ -238,7 +238,7 @@ export function Projects({ isTron }) {
                                     <img src={ c_logo_green } alt="C logo by Icons8"
                                          width={48} height={48}/>
                                     :
-                                    <img src={ c_logo_black } alt="C logo by Icons8"
+                                    <img src={ c_logo_color } alt="C logo by Icons8"
                                          width={48} height={48}/>
                             }
                         </a>
@@ -247,7 +247,7 @@ export function Projects({ isTron }) {
                         Arduino, rotary encoder, DS18B20 temperature sensor, and various
                         other components.<br />Developed software to display temperature
                             changes and play tones for different temperature ranges from hot
-                            to cold, user is able to designate these temperature ranges
+                            to cold, user is able to designate these temperature ranges.
                     </p>
                 </div>
 
@@ -273,7 +273,7 @@ export function Projects({ isTron }) {
                                          width={48} height={48} />
                                     :
                                     <img
-                                         src={ cs_logo_black } alt="C# logo by Icons8"
+                                         src={ cs_logo_color } alt="C# logo by Icons8"
                                          width={48} height={48} />
                             }
                         </a>
