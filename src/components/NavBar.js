@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import '../style/navBar.css';
+import resume from '../assets/bogert_sophia_resume.pdf';
 
 export function NavBar({ isTron }) {
 
@@ -75,7 +76,7 @@ export function NavBar({ isTron }) {
 
                         <ul className="nav-list">
                             <li><a onClick={closeMenu} className="nav-projects" href="#projects">Projects</a></li>
-                            <li><a onClick={closeMenu} className="nav-resume" href="../assets/bogert_sophia_resume.pdf"
+                            <li><a onClick={closeMenu} className="nav-resume" href={resume}
                                    target="_blank" rel="noreferrer">Resume</a></li>
                             <li><a onClick={closeMenu} className="nav-fun" href="#fun">Fun Things</a></li>
                         </ul>

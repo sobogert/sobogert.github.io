@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/cpp_logo_color_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logos/tron_logos/github_logo_tron.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logos/tron_logos/linkedin_logo_tron.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/c_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/c_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/cpp_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/cpp_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/cs_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/cs_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/github_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/github_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/java_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/java_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/javascript_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/javascript_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/linkedin_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/linkedin_logo_color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/python_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logos/color_logos/python_logo_color.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeSwitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/aboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/aboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/contactMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/contactMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/funThings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/funThings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -102,7 +84,8 @@
       <workItem from="1704646049130" duration="26429000" />
       <workItem from="1704680749706" duration="6294000" />
       <workItem from="1704687505904" duration="3155000" />
-      <workItem from="1704738378316" duration="20810000" />
+      <workItem from="1704738378316" duration="21868000" />
+      <workItem from="1704936046867" duration="126000" />
     </task>
     <servers />
   </component>
