@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import '../style/contactMe.css';
-import github_logo_tron from '../assets/logos/tron_logos/github_logo_tron.svg';
-import linkedin_logo_tron from '../assets/logos/tron_logos/linkedin_logo_tron.svg';
+// import github_logo_tron from '../assets/logos/tron_logos/github_logo_tron.svg';
+import github_logo_tron from '../assets/logos/tron_logos/github_logo_neon.svg';
+// import linkedin_logo_tron from '../assets/logos/tron_logos/linkedin_logo_tron.svg';
+import linkedin_logo_tron from '../assets/logos/tron_logos/linkedin_logo_neon.svg';
 import github_logo_color from '../assets/logos/color_logos/github_logo_color.svg';
 import linkedin_logo_color from '../assets/logos/color_logos/linkedin_logo_color.svg';
 
@@ -87,7 +89,7 @@ export function ContactMe({ isTron }) {
 
                 <div className="contact-items">
                     <p> &#9993; bogertsophia@gmail.com</p>
-                    <p>
+                    <p className={"contact-logo"}>
                         <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank"
                            rel="noreferrer">
                             {
