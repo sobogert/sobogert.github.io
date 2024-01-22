@@ -1,3 +1,5 @@
+@import './style/fonts.css';
+
 body {
   margin: 0;
   padding: 0;
@@ -27,7 +29,7 @@ body {
 .tron-theme {
   background: #090540;
   color: #61f349;
-  font-family: 'Tabular', monospace, sans-serif;
+  font-family: 'Tabular-Variable', monospace, sans-serif;
 }
 
 /* Color body theme */
@@ -60,7 +62,7 @@ h2 {
 
 
 .tron-theme h1, .tron-theme h2 {
-  font-family: 'Array', sans-serif;
+  font-family: 'Array-Bold', sans-serif;
   color: rgba(248,217,18,1);
   text-shadow: 5px 5px #E02B32;
 }
