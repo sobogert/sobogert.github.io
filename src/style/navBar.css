@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     z-index: 10;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@
 }
 .nav-list li {
     list-style: none;
-    width: 200px;
+    width: 210px;
 }
 .nav-list li a {
     font-size: 30pt;
@@ -88,6 +88,7 @@
         display: flex;
         justify-content: flex-end;
         top: 0;
+        width: 100vw;
     }
     .hamburglar {
         height: 28px;
