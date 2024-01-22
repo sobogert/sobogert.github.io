@@ -21,6 +21,7 @@ body {
   width: 84%;
   height: fit-content;
   background: none;
+  margin-bottom: 60px;
 }
 /* Tron body theme */
 .tron-theme {

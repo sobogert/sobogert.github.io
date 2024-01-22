@@ -1,6 +1,6 @@
 .to-top-btn {
     position: fixed;
-    bottom: 8%;
+    bottom: 90px;
     right: 0;
     height: 55px;
     width: 84px;
@@ -16,7 +16,7 @@
 }
 .color-theme .to-top-btn {
     width: 64px;
-    bottom: 9%;
+    bottom: 100px;
     right: 3px;
 }
 .words {
