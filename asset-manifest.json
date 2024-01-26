@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aea83226.css",
+    "main.css": "/static/css/main.3b6e1504.css",
     "main.js": "/static/js/main.36024afe.js",
     "static/js/787.c8452334.chunk.js": "/static/js/787.c8452334.chunk.js",
     "static/media/bogert_sophia_resume.pdf": "/static/media/bogert_sophia_resume.3e9c5ea4a1f48b76d1f0.pdf",
@@ -25,12 +25,12 @@
     "static/media/linkedin_logo_color.svg": "/static/media/linkedin_logo_color.a6dc9e8a53072c1a4dd5163240ab8181.svg",
     "static/media/linkedin_logo_neon.svg": "/static/media/linkedin_logo_neon.d701332cfecb5c6da4a143d43f74db53.svg",
     "index.html": "/index.html",
-    "main.aea83226.css.map": "/static/css/main.aea83226.css.map",
+    "main.3b6e1504.css.map": "/static/css/main.3b6e1504.css.map",
     "main.36024afe.js.map": "/static/js/main.36024afe.js.map",
     "787.c8452334.chunk.js.map": "/static/js/787.c8452334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea83226.css",
+    "static/css/main.3b6e1504.css",
     "static/js/main.36024afe.js"
   ]
 }
