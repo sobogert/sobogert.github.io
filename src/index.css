@@ -75,14 +75,12 @@ h2 {
   font-family: 'Fredoka', sans-serif;
 }
 .section {
-  margin-top: -65px;
-  margin-bottom: 30px;
-  padding-top: 105px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 65px;
 }
 
 @media screen and (max-width: 992px) {

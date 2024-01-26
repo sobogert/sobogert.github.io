@@ -1,4 +1,3 @@
-import './App.css';
 import { useState, useEffect } from 'react';
 import { ThemeSwitch } from './components/ThemeSwitch';
 import { ToTop } from "./components/ToTop";
