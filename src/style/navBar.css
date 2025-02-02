@@ -1,6 +1,6 @@
 .top-bar {
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
@@ -17,8 +17,8 @@
     right: 26px;
 }
 .nav-box {
-    padding-inline: 8%;
-    padding-block: 14px;
+    padding-inline: 2%;
+    padding-block: 16px;
 }
 .tron-theme .nav-box, .tron-theme .nav-box:start {
     background: #090540;
@@ -38,12 +38,18 @@
     justify-content: space-between;
     -webkit-align-content: space-between;
 }
+
+.nav-list_cluster {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+}
 .nav-list li {
     list-style: none;
-    width: 210px;
 }
-.nav-list li a {
-    font-size: 30pt;
+.nav-list li a, .nav-list li {
+    font-size: 32px;
     font-weight: 600;
     text-decoration: none;
 }
@@ -64,6 +70,27 @@
 .color-theme .nav-list li a {
     font-family: 'Fredoka', sans-serif;
 }
+
+.color-theme .name {
+    font-family: 'Fredoka', sans-serif;
+    position: relative;
+}
+
+.color-theme .name_normal {
+    position:absolute;
+    top:0;
+    left:0;
+    color: #bbf100;
+}
+
+.color-theme .name_outline {
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6D8812;
+}
+
 .color-theme .nav-projects {
     color: #FF4000;
 }

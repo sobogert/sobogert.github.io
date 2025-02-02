@@ -16,11 +16,11 @@ export function AboutMe({ isTron }) {
                         : null
                 }
 
-
-                <p className="about-me-paragraph"> Hello, my name is Sophia Bogert. I'm a recent graduate from the
-                    University of Southern California, where I studied Computer Science.
-                    I'm interested in full-stack development and product design. Take a look around my site to learn a
-                    bit about me!
+                <p className="about-me-paragraph"> I currently work on the GCS II (GPS)
+                    Program at Lockheed Martin as a Software Engineer, where I apply my learnigns from the University
+                    of Southern California's Computer Science Program. Full-stack development, product design, and
+                    creative development are things I am passionate about.
+                    Take a look around my site to learn a bit about me!
                 </p>
             </div>
         </div>

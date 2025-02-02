@@ -75,10 +75,21 @@ export function NavBar({ isTron }) {
                         }
 
                         <ul className="nav-list">
-                            <li><a onClick={closeMenu} className="nav-projects" href="#projects">Projects</a></li>
-                            <li><a onClick={closeMenu} className="nav-resume" href={resume}
-                                   target="_blank" rel="noreferrer">Resume</a></li>
-                            <li><a onClick={closeMenu} className="nav-fun" href="#fun">Fun Things</a></li>
+                            {isTron ?
+                                <li className={"name"}>
+                                    <div>SoBogert</div>
+                                </li> :
+                                <li className={"name"}>
+                                    <div className={"name_outline"}>SoBogert</div>
+                                    <div className={"name_normal"}>SoBogert</div>
+                                </li>
+                            }
+                            <div className={"nav-list_cluster"}>
+                                <li><a onClick={closeMenu} className="nav-projects" href="#projects">Projects</a></li>
+                                <li><a onClick={closeMenu} className="nav-resume" href={resume}
+                                       target="_blank" rel="noreferrer">Resume</a></li>
+                                <li><a onClick={closeMenu} className="nav-fun" href="#fun">Fun Things</a></li>
+                            </div>
                         </ul>
                     </nav>
                     : null

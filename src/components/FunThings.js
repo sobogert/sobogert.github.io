@@ -12,10 +12,10 @@ export function FunThings({ isTron }) {
                         : null
                 }
                 <div className="fun-items">
+                    <span>&#9758;  Crocheting</span>
                     <span>&#9758;  Creating 2d animations</span>
                     <span>&#9758;  Drumming</span>
                     <span>&#9758;  Rowing</span>
-                    <span>&#9758;  Rock Climbing</span>
                     <span>&#9758;  Website Building</span>
                 </div>
             </div>

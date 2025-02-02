@@ -6,9 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-.color-theme .landing-page {
-    height: 85vh;
-}
 .outline-thick {
     -webkit-text-stroke-width: 3px;
 }
@@ -28,7 +25,7 @@
 }
 
 .tron-theme .name-bar {
-    top: 25vh;
+    top: 30vh;
     width: 97%;
     height: 16vw;
     border-radius: 50px;
