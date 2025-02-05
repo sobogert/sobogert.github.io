@@ -12,8 +12,8 @@ import {Footer} from "./components/Footer";
 function App() {
 
   // Based on switch, change theme
-  let [isTron, setIsTron] = useState(true);
-  let [currTheme, setCurrTheme] = useState("tron-theme");
+  let [isTron, setIsTron] = useState(false);
+  let [currTheme, setCurrTheme] = useState("color-theme");
 
   // Update class based on switch
   useEffect(() => {
