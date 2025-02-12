@@ -23,7 +23,6 @@
     align-items: center;
     font-size: 9vw;
 }
-
 .tron-theme .name-bar {
     top: 30vh;
     width: 97%;
@@ -31,7 +30,6 @@
     border-radius: 50px;
     border: 20px solid #64FA49;
 }
-
 .color-theme .name-bar {
     top: 0;
     left: 0;
@@ -39,7 +37,6 @@
     width: 100%;
     color: #BBF100;
 }
-
 @media screen and (max-width: 992px) {
     .color-theme .landing-page {
         height: 100vh;
@@ -61,7 +58,6 @@
     .color-theme .name-bar {
         font-size: 12vw;
     }
-
 }
 
 /* adjust contents for smaller screen sizes */
