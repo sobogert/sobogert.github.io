@@ -17,7 +17,7 @@ export function AboutMe({ isTron }) {
                 }
 
                 <p className="about-me-paragraph"> I currently work on the GCS II (GPS)
-                    Program at Lockheed Martin as a Software Engineer, where I apply my learnigns from the University
+                    Program at Lockheed Martin as a Software Engineer, where I apply my learnings from the University
                     of Southern California's Computer Science Program. Full-stack development, product design, and
                     creative development are things I am passionate about.
                     Take a look around my site to learn a bit about me!
