@@ -8,7 +8,6 @@
     height: 100%;
     width: 100%;
 }
-
 .color-theme .about-me-paragraph {
     position: sticky;
     top: 74px;
@@ -19,7 +18,6 @@
     z-index: 2;
     color: #57271B;
 }
-
 @media screen and (max-width: 992px) {
     .color-theme .about-me-paragraph {
         margin-block: 30%;
