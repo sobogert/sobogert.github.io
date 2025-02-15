@@ -7,19 +7,35 @@ export function AboutMe({ isTron }) {
             <div className="center-container">
                 {
                     !isTron ?
-                        <svg className="about-me-container" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 861 242" fill="none"
-                         preserveAspectRatio="none">
-                        <path
-                            d="M436.096 45.0646C266.844 45.2828 33.8841 -46.6313 3.93203 31.4578C-9.66994 66.92 27.039 82.8642 24.7914 120.779C23.1005 149.302 9.50817 170.309 3.93203 198.333C-16.9273 303.165 269.454 190.067 436.096 190.011C603.991 189.954 873.609 298.351 859.703 198.333C855.361 167.102 838.36 152.291 837.239 120.779C835.961 84.8334 859.703 59.7948 859.703 31.4578C859.703 -32.1901 601.595 44.8511 436.096 45.0646Z"
-                            fill="#FF4000"/>
+                        <svg className="about-me-container" viewBox="0 0 860 242" fill="none" preserveAspectRatio="none">
+                            <path d="M4.89899 32.1741C11.9509 13.7889 31.0422 5.01669 59.5567 2.66396C87.9894 0.317992
+                            124.994 4.44013 166.563 11.0349C187.021 14.2805 208.571 18.1242 230.703 22.0717C298.283
+                            34.1254 371.29 47.147 435.199 47.0646C498.388 46.9831 575.068 35.7258 645.618
+                            25.3684C667.651 22.1338 689.086 18.987 709.325 16.2957C751.945 10.6284 789.198 6.98802
+                            815.759 8.69825C829.061 9.55476 839.442 11.7428 846.439 15.5198C849.912 17.3946 852.485
+                            19.6259 854.193 22.2194C855.891 24.7976 856.803 27.8369 856.803 31.4578C856.803 44.078
+                            851.932 56.0497 846.6 69.1585C846.148 70.2691 845.693 71.3879 845.237 72.5159C839.454 86.828
+                            833.684 102.418 834.34 120.85C834.914 136.99 839.569 148.852 844.523 160.447C844.907 161.345
+                            845.292 162.24 845.677 163.136C850.268 173.813 854.859 184.49 856.822 198.609C858.499 210.67
+                            855.878 219.244 850.04 225.301C844.114 231.449 834.58 235.318 821.794 237.242C796.207
+                            241.092 758.861 236.985 715.507 229.685C692.31 225.78 667.59 220.999 642.144 216.078C619.978
+                            211.791 597.261 207.397 574.518 203.383C525.827 194.787 477.353 187.997 435.195
+                            188.011C393.346 188.025 344.054 195.133 294.081 204.108C271.596 208.147 249.02 212.554
+                            226.899 216.872C199.729 222.176 173.246 227.346 148.467 231.533C103.528 239.127 64.7847
+                            243.372 38.6315 239.291C25.5582 237.25 15.9808 233.179 10.2731 226.748C4.65069 220.414
+                            2.46698 211.419 4.99319 198.723C7.29882 187.136 10.9867 176.781 14.6717 166.434C15.3867
+                            164.427 16.1016 162.419 16.8063 160.403C21.1257 148.046 25.025 135.447 25.8875
+                            120.897C26.9474 103.018 19.605 89.8113 12.913 77.7744C12.2522 76.5856 11.5976 75.4083
+                            10.9582 74.239C3.81546 61.1784 -1.56647 49.0304 4.89899 32.1741Z" fill="#FD6C3C"
+                                  stroke="#FF4000" strokeWidth="4"/>
                     </svg>
                         : null
                 }
 
-                <p className="about-me-paragraph"> I currently work on the GCS II (GPS)
-                    Program at Lockheed Martin as a Software Engineer, where I apply my learnings from the University
-                    of Southern California's Computer Science Program. Full-stack development, product design, and
-                    creative development are things I am passionate about.
+                <p className="about-me-paragraph"> Hello! My name is Sofi Bogert. I'm currently working on the GCS II
+                    (GPS) Program at Lockheed Martin as a Software Engineer. Before that, I studied Computer Science
+                    at the University of Southern California. I love following the process of a project from design to
+                    development, and I'm constantly trying to expand my skills as a full-stack developer and designer.
                     Take a look around my site to learn a bit about me!
                 </p>
             </div>

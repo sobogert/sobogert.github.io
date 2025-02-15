@@ -54,10 +54,12 @@
 .name {
     font-size: 44px !important;
 }
+
 .tron-theme .nav-list li a {
     font-family: 'Array-Regular', sans-serif;
     color: #C063E8;
     text-shadow: 2px 2px #E02B32;
+    cursor: url("../assets/cursors/tron-pointer.svg"), pointer;
 }
 .tron-theme .nav-list li a:hover {
     color: rgba(248,217,18,1);
@@ -74,6 +76,7 @@
 .color-theme .nav-list li a {
     font-family: 'Fredoka', sans-serif;
     font-weight: 600;
+    cursor: url("../assets/cursors/color-pointer.svg"), pointer;
 }
 .color-theme .name {
     font-family: 'Fredoka', sans-serif;

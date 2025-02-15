@@ -10,6 +10,7 @@ body {
   -ms-overflow-style: none;  /* IE and Edge *!*/
   scrollbar-width: none;  /* Firefox *!*/
 }
+
 .centered {
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@ body {
   background: #090540;
   color: #61f349;
   font-family: 'Tabular-Variable', monospace, sans-serif;
+  cursor: url("assets/cursors/tron-cursor.svg"), auto;
 }
 
 /* Color body theme */
@@ -37,6 +39,7 @@ body {
   background: #F6EFEE;
   color: #1E1E24;
   font-family: 'Outfit', sans-serif;
+  cursor: url("assets/cursors/color-cursor.svg"), auto;
 }
 
 .outline {

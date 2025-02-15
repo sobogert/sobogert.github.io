@@ -26,6 +26,13 @@
     transition: .4s;
     border-radius: 26px;
 }
+.color-theme .slider {
+    cursor: url("../assets/cursors/color-pointer.svg"), pointer;
+}
+
+.tron-theme .slider {
+    cursor: url("../assets/cursors/tron-pointer.svg"), pointer;
+}
 .slider:before {
     position: absolute;
     content: "";
