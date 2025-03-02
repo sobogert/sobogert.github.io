@@ -1,6 +1,8 @@
 @import './style/fonts.css';
+@import './style/variables.css';
 
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -10,7 +12,25 @@ body {
   -ms-overflow-style: none;  /* IE and Edge *!*/
   scrollbar-width: none;  /* Firefox *!*/
 }
-
+h1 {
+  font-size: 120px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.tron-theme h1, .tron-theme h2 {
+  font-family: 'Array-Bold', sans-serif;
+  color: var(--tron-yellow);
+  text-shadow: 5px 5px var(--tron-red);
+}
+.tron-theme h2 {
+  text-shadow: 3px 3px var(--tron-red);
+}
+.color-theme h1, .color-theme h2 {
+  font-family: 'Fredoka', sans-serif;
+}
 .centered {
   display: flex;
   align-items: center;
@@ -28,48 +48,35 @@ body {
 }
 /* Tron body theme */
 .tron-theme {
-  background: #090540;
-  color: #61f349;
+  background: var(--tron-dark-blue);
+  color: var(--tron-green);
   font-family: 'Tabular-Variable', monospace, sans-serif;
   cursor: url("assets/cursors/tron-cursor.svg"), auto;
 }
-
 /* Color body theme */
 .color-theme {
-  background: #F6EFEE;
-  color: #1E1E24;
+  background: var(--cream);
+  color: var(--black);
   font-family: 'Outfit', sans-serif;
   cursor: url("assets/cursors/color-cursor.svg"), auto;
 }
-
+.tron-theme a {
+  text-decoration: none;
+  cursor: url("assets/cursors/tron-pointer.svg"), pointer;
+}
+.color-theme a {
+  text-decoration: none;
+  cursor: url("assets/cursors/color-pointer.svg"), pointer;
+}
 .outline {
-  color: #6D8812 !important;
+  color: var(--lime-outline) !important;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #6D8812;
+  -webkit-text-stroke-color: var(--lime-outline);
 }
 .color-theme .center-container {
   position: relative;
   height: auto;
   width: 78%;
-}
-h1 {
-  font-size: 120px;
-  font-weight: 700;
-}
-h2 {
-  font-size: 32px;
-  font-weight: 600;
-}
-.tron-theme h1, .tron-theme h2 {
-  font-family: 'Array-Bold', sans-serif;
-  color: rgba(248,217,18,1);
-  text-shadow: 5px 5px #E02B32;
-}
-.tron-theme h2 {
-  text-shadow: 3px 3px #E02B32;
-}
-.color-theme h1, .color-theme h2 {
-  font-family: 'Fredoka', sans-serif;
 }
 .section {
   display: flex;

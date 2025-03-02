@@ -8,9 +8,7 @@ export function FunThings({ isTron }) {
             <div className="fun-container">
                 {
                     !isTron ?
-                        <div className="fun-background">
-                            <div className={"fun-background_small"}></div>
-                        </div>
+                        <div className="fun-background"></div>
                         : null
                 }
                 <div className="fun-items">

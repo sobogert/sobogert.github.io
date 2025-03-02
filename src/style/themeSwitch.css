@@ -1,4 +1,5 @@
-/* Theme changing slider */
+@import 'variables.css';
+
 .switch {
     position: fixed;
     left: 32px;
@@ -20,18 +21,17 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #090540;
-    border: 2px solid #F6EFEE;
+    background-color: var(--tron-dark-blue);
+    border: 2px solid var(--cream);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 26px;
 }
 .color-theme .slider {
-    cursor: url("../assets/cursors/color-pointer.svg"), pointer;
+    cursor: var(--color-theme-cursor-pointer);
 }
-
 .tron-theme .slider {
-    cursor: url("../assets/cursors/tron-pointer.svg"), pointer;
+    cursor: var(--tron-theme-cursor-pointer);
 }
 .slider:before {
     position: absolute;
@@ -40,19 +40,17 @@
     width: 20px;
     left: 5px;
     bottom: 4px;
-    background-color: #FE5DA0;
+    background-color: var(--hot-pink);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
-
 }
 input:checked + .slider {
-    background-color: #F6EFEE;
-    border: 2px solid #090540;
+    background-color: var(--cream);
+    border: 2px solid var(--tron-dark-blue);
 }
 input:focus + .slider {
-    /*box-shadow: 0 0 1px #090540;*/
-    border: 2px solid #090540;
+    border: 2px solid var(--tron-dark-blue);
 }
 input:checked + .slider:before {
     -webkit-transform: translateX(18px);
@@ -60,10 +58,9 @@ input:checked + .slider:before {
     transform: translateX(18px);
 }
 
-/* adjust contents for smaller screen sizes */
 @media screen and (max-width: 992px) {
     .switch {
-        top: 22px;
+        bottom: 22px;
         left: 22px;
     }
 }

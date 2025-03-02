@@ -1,0 +1,28 @@
+:root {
+    --color-theme-cursor-pointer: url("../assets/cursors/color-pointer.svg"), pointer;
+    --tron-theme-cursor-pointer: url("../assets/cursors/tron-pointer.svg"), pointer;
+    --baby-blue: #70B8FF;
+    --baby-blue-hover: #5C92C9;
+    --dark-blue-text: #2E3C4E;
+    --cream: #F6EFEE;
+    --black: #1E1E24;
+    --hot-pink: #F879AA;
+    --hot-pink-outline: #D96A95;
+    --bright-red: #FF4000;
+    --bright-red-hover: #AB340E;
+    --dark-red-text: #3A2827;
+    --yellow: #FDBA35;
+    --muted-yellow: #FCC864;
+    --dark-yellow-text: #564529;
+    --lime: #BBF100;
+    --lime-outline: #6D8812;
+    --dark-green-text: #295A3F;
+    --purple: #9B7EDE;
+    --purple-hover: #6D5A99;
+    --tron-dark-blue: #090540;
+    --tron-muted-dark-blue: #2C2957;
+    --tron-purple: #C063E8;
+    --tron-red: #E02B32;
+    --tron-yellow: #F8D912;
+    --tron-green: #61f349;
+}

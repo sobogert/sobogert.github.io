@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 .footer {
     margin: auto;
     background: none;
@@ -12,11 +14,11 @@
 }
 .tron-theme .text-footer {
     font-family: 'Array-Regular', sans-serif;
-    color: #E02B32;
-    text-shadow: 1px 1px #C063E8;
+    color: var(--tron-red);
+    text-shadow: 1px 1px var(--tron-purple);
 }
 .color-theme .text-footer {
     font-family: 'Fredoka', sans-serif;
-    color: #9B7EDE;
+    color: var(--purple);
     font-weight: 600;
 }

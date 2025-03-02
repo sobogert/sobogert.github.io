@@ -1,5 +1,7 @@
+@import './variables.css';
+
 .color-theme .about-me-title {
-    color: #FF4000;
+    color: var(--bright-red);
 }
 .color-theme .about-me-container {
     position: absolute;
@@ -16,15 +18,15 @@
     margin-left: 9%;
     margin-block: 10%;
     z-index: 2;
-    color: #3A2827;
+    color: var(--dark-red-text);
 }
+
 @media screen and (max-width: 992px) {
     .color-theme .about-me-paragraph {
         margin-block: 30%;
     }
 }
 
-/* adjust contents for smaller screen sizes */
 @media screen and (max-width: 600px) {
     .color-theme .about-me-paragraph {
         margin-block: 44%;

@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 .top-bar {
     position: fixed;
     top: 0;
@@ -21,13 +23,13 @@
     padding-block: 16px;
 }
 .tron-theme .nav-box, .tron-theme .nav-box:start {
-    background: #090540;
+    background: var(--tron-dark-blue);
 }
 .color-theme .nav-box {
-    background: #F6EFEE;
+    background: var(--cream);
 }
 .color-theme .nav-box:start {
-    background: #F6EFEE;
+    background: var(--cream);
 }
 .nav-list {
     width: 100%;
@@ -54,29 +56,28 @@
 .name {
     font-size: 44px !important;
 }
-
 .tron-theme .nav-list li a {
     font-family: 'Array-Regular', sans-serif;
-    color: #C063E8;
-    text-shadow: 2px 2px #E02B32;
-    cursor: url("../assets/cursors/tron-pointer.svg"), pointer;
+    color: var(--tron-purple);
+    text-shadow: 2px 2px var(--tron-red);
+    cursor: var(--tron-theme-cursor-pointer);
 }
 .tron-theme .nav-list li a:hover {
-    color: rgba(248,217,18,1);
+    color: var(--tron-yellow);
 }
 .tron-theme .nav-list li a:active {
-    color: #E02B32;
-    text-shadow: 2px 2px rgba(248,217,18,1);
+    color: var(--tron-red);
+    text-shadow: 2px 2px var(--tron-yellow);
 }
 .tron-theme .name {
     font-family: 'Array-Semibold', sans-serif;
-    color: #C063E8;
-    text-shadow: 2px 2px #E02B32;
+    color: var(--tron-purple);
+    text-shadow: 2px 2px var(--tron-red);
 }
 .color-theme .nav-list li a {
     font-family: 'Fredoka', sans-serif;
     font-weight: 600;
-    cursor: url("../assets/cursors/color-pointer.svg"), pointer;
+    cursor: var(--color-theme-cursor-pointer);
 }
 .color-theme .name {
     font-family: 'Fredoka', sans-serif;
@@ -88,32 +89,32 @@
     position:absolute;
     top:0;
     left:0;
-    color: #F879AA;
+    color: var(--hot-pink);
 }
 .color-theme .name_outline {
     position:absolute;
     top:0;
     left:0;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #D96A95;
+    -webkit-text-stroke-color: var(--hot-pink-outline);
 }
 .color-theme .nav-projects {
-    color: #FF4000;
+    color: var(--bright-red);
 }
 .color-theme .nav-projects:hover {
-    color: #AB340E;
+    color: var(--bright-red-hover);
 }
 .color-theme .nav-resume {
-    color: #9B7EDE;
+    color: var(--purple);
 }
 .color-theme .nav-resume:hover {
-    color: #6D5A99;
+    color: var(--purple-hover);
 }
 .color-theme .nav-fun {
-    color: #70B8FF;
+    color: var(--baby-blue);
 }
 .color-theme .nav-fun:hover {
-    color: #5C92C9;
+    color: var(--baby-blue-hover);
 }
 
 @media screen and (max-width: 992px) {
@@ -123,7 +124,7 @@
         top: 0;
         width: 100vw;
     }
-    .hamburglar {
+    .hamburger-menu {
         height: 28px;
         width: 28px;
         margin-right: 22px;
@@ -131,24 +132,24 @@
         padding: 4px;
         border-radius: 3px;
     }
-    .tron-theme .hamburglar {
-        background-color: #2c2957;
-        border: 2px solid #C063E8;
+    .tron-theme .hamburger-menu {
+        background-color: var(--tron-muted-dark-blue);
+        border: 2px solid var(--tron-purple);
     }
-    .color-theme .hamburglar {
-        background-color: #F6EFEE;
-        border: 2px solid #F879AA;
+    .color-theme .hamburger-menu {
+        background-color: var(--cream);
+        border: 2px solid var(--hot-pink);
     }
     .nav-box {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        width: 100vh;
+        width: 100vw;
         z-index: 101;
     }
     .tron-theme .nav-box {
-        background-color: #2c2957;
+        background-color: var(--tron-muted-dark-blue);
     }
     .nav-list_cluster {
         flex-direction: column;
@@ -166,7 +167,7 @@
     }
     .tron-theme .nav-list li a {
         font-size: 34px;
-        text-shadow: 2px 2px #E02B32;
+        text-shadow: 2px 2px var(--tron-red);
     }
     .color-theme .nav-list li a {
         font-size: 26px;

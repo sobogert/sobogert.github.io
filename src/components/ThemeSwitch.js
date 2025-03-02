@@ -8,6 +8,8 @@ import '../style/themeSwitch.css';
  */
 export function ThemeSwitch({ isTron, setIsTron }) {
 
+    // make radio box group
+    // site themes, 1, 2, 3
     // Update current theme
     function changeStyle () {
         setIsTron(!isTron);

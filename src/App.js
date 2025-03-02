@@ -25,7 +25,6 @@ function App() {
     }
   }, [isTron])
 
-
   return (
       <div className={"centered " + currTheme}>
         <div className="page">
@@ -58,7 +57,6 @@ function App() {
           />
           <Footer />
         </div>
-
       </div>
   );
 }

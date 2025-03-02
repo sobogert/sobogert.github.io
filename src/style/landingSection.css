@@ -1,3 +1,5 @@
+@import './variables.css';
+
 .landing-page {
     position: relative;
     display: flex;
@@ -24,18 +26,14 @@
     font-size: 9vw;
 }
 .tron-theme .name-bar {
-    top: 30vh;
-    width: 97%;
-    height: 16vw;
+    padding: 26px 60px;
     border-radius: 50px;
-    border: 20px solid #64FA49;
+    border: 20px solid var(--tron-green);
 }
 .color-theme .name-bar {
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
-    color: #BBF100;
+    color: var(--lime);
 }
 @media screen and (max-width: 992px) {
     .color-theme .landing-page {
@@ -49,10 +47,11 @@
         margin-left: 0;
     }
     .tron-theme .name-bar {
+        padding: 0;
         height: 194px;
         width: 90%;
         font-size: 11vw;
-        border: 12px solid #64FA49;
+        border: 12px solid var(--tron-green);
         border-radius: 30px;
     }
     .color-theme .name-bar {
@@ -60,7 +59,6 @@
     }
 }
 
-/* adjust contents for smaller screen sizes */
 @media screen and (max-width: 600px) {
     .tron-theme .name-bar {
         font-size: 16vw;

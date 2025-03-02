@@ -1,6 +1,7 @@
+@import 'variables.css';
 
 .color-theme #projects h2 {
-    color: #70B8FF;
+    color: var(--baby-blue);
 }
 .projects-container {
     display: flex;
@@ -16,19 +17,17 @@
     align-items: flex-start;
     text-align: left;
     width: 40%;
-    background-color: #2c2957;
-    border: 3px solid #C063E8;
-    border-radius: 13px;
-    padding-inline: 2% 3%;
 }
-
 .color-theme .project-box {
     position: relative;
-    background-color: unset;
-    border: none;
-    padding-inline: 0;
     margin-inline: 2% 3%;
-    color: #2E3C4E;
+    color: var(--dark-blue-text);
+}
+.tron-theme .project-box {
+    background-color: var(--tron-muted-dark-blue);
+    border: 3px solid var(--tron-purple);
+    border-radius: 13px;
+    padding-inline: 2% 3%;
 }
 .tron-theme .project-background {
     display: none;
@@ -46,14 +45,14 @@
     align-items: center;
 }
 .color-theme .project-header {
-    z-index:2;
-    width:84%;
+    z-index: 2;
+    width: 84%;
     margin-inline: 8%;
     margin-top: 8%;
 }
 .color-theme .project-content {
     margin: 0 8% 8%;
-    z-index:2;
+    z-index: 2;
 }
 
 @media screen and (max-width: 992px) {

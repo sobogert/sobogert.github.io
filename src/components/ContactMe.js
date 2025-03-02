@@ -1,8 +1,5 @@
-import { useState, useEffect } from 'react';
 import '../style/contactMe.css';
-// import github_logo_tron from '../assets/logos/tron_logos/github_logo_tron.svg';
 import github_logo_tron from '../assets/logos/tron_logos/github_logo_neon.svg';
-// import linkedin_logo_tron from '../assets/logos/tron_logos/linkedin_logo_tron.svg';
 import linkedin_logo_tron from '../assets/logos/tron_logos/linkedin_logo_neon.svg';
 import github_logo_color from '../assets/logos/color_logos/github_logo_color.svg';
 import linkedin_logo_color from '../assets/logos/color_logos/linkedin_logo_color.svg';
@@ -13,10 +10,10 @@ export function ContactMe({ isTron }) {
             <div className="bordered-title">
                 {
                     !isTron ?
-                        <h2 className="contact outline">Contact Me!</h2>
+                        <h2 className="contact outline">Contact Me</h2>
                         : null
                 }
-                <h2 className="contact">Contact Me!</h2>
+                <h2 className="contact">Contact Me</h2>
             </div>
 
             <div className="contact-container">
@@ -24,13 +21,13 @@ export function ContactMe({ isTron }) {
                     !isTron ?
                         <svg className="contact-background" width="240" height="240"
                              viewBox="0 0 240 240" fill="none">
-                            <circle cx="120" cy="120" r="117.5" fill={"#D2F15A"} stroke={"#BBF100"} strokeWidth={"4"}/>
+                            <circle cx="120" cy="120" r="117.5" fill={"#D2F15A"} />
                         </svg>
                         : null
                 }
 
                 <div className="contact-items">
-                    <p> &#9993; bogertsophia@gmail.com</p>
+                    <p>bogertsophia@gmail.com</p>
                     <p className={"contact-logo"}>
                         <a href="https://www.linkedin.com/in/sophia-bogert/" target="_blank"
                            rel="noreferrer">

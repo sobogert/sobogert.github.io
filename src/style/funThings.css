@@ -1,32 +1,25 @@
+@import 'variables.css';
+
 .fun-title {
-    color: #FDBA35;
+    color: var(--yellow);
 }
 .color-theme .fun-container {
     position: relative;
     height: 270px;
     width: 76%;
 }
-.color-theme .fun-background_small {
-    height: 96%;
-    width: 96%;
-    background-color: #FCC864;
-    background-size: cover;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-}
-
 .color-theme .fun-background {
     position: absolute;
     top:0;
     left: 0;
     height: 270px;
     width: 100%;
-    background-color: #FDBA35;
+    background-color: var(--muted-yellow);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-
 }
 .color-theme .fun-items {
     position: absolute;
@@ -40,10 +33,9 @@
     justify-content: center;
 }
 .color-theme .fun-items {
-    color: #564529;
+    color: var(--dark-yellow-text);
 }
 
-/* adjust contents for smaller screen sizes */
 @media screen and (max-width: 992px) {
     .color-theme .fun-container {
         height: 320px;
