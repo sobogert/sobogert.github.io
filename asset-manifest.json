@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fee43886.css",
-    "main.js": "/static/js/main.485f52a7.js",
+    "main.css": "/static/css/main.6243f56b.css",
+    "main.js": "/static/js/main.137510d4.js",
     "static/js/787.c8452334.chunk.js": "/static/js/787.c8452334.chunk.js",
-    "static/media/bogert_sophia_resume.pdf": "/static/media/bogert_sophia_resume.a608d48d08d04bf8c0f0.pdf",
+    "static/media/bogert_sophia_resume.pdf": "/static/media/bogert_sophia_resume.7c37227b7c45f94e87dd.pdf",
+    "static/media/Zodiak-Variable.woff2": "/static/media/Zodiak-Variable.67186e4a886631b8e07d.woff2",
     "static/media/Array-Bold.woff2": "/static/media/Array-Bold.2367cacf4c46267acc6c.woff2",
     "static/media/Array-Semibold.woff2": "/static/media/Array-Semibold.711427aa93cf44d3e585.woff2",
     "static/media/Tabular-Variable.woff2": "/static/media/Tabular-Variable.362ceb8bad5b385594bc.woff2",
@@ -14,7 +15,6 @@
     "static/media/cpp_logo_green.svg": "/static/media/cpp_logo_green.37b03f2e2f2d8a33f1cbb3f7464aebcd.svg",
     "static/media/cs_logo_color.svg": "/static/media/cs_logo_color.90fda51d1673664fa4f2524b79756c80.svg",
     "static/media/cs_logo_green.svg": "/static/media/cs_logo_green.1198d288d99dc73ba6f761bed6f81c47.svg",
-    "static/media/color-pointer.svg": "/static/media/color-pointer.1fcad96ff328a6757418.svg",
     "static/media/c_logo_color.svg": "/static/media/c_logo_color.4ef890ffa1e7ce97079af28337038a9c.svg",
     "static/media/c_logo_green.svg": "/static/media/c_logo_green.0a4b5fdabe2d73a345a6019b3acd6104.svg",
     "static/media/github_logo_neon.svg": "/static/media/github_logo_neon.faaa0f60ce779b53348698bcbfb4904c.svg",
@@ -27,14 +27,15 @@
     "static/media/linkedin_logo_neon.svg": "/static/media/linkedin_logo_neon.d701332cfecb5c6da4a143d43f74db53.svg",
     "index.html": "/index.html",
     "static/media/tron-cursor.svg": "/static/media/tron-cursor.d64745728b68aa77d3ea.svg",
+    "static/media/color-pointer.svg": "/static/media/color-pointer.a15a441a79c485745015.svg",
     "static/media/color-cursor.svg": "/static/media/color-cursor.f4e59a54650e4f42861b.svg",
     "static/media/tron-pointer.svg": "/static/media/tron-pointer.8bff0ce90dc7aa8d6f92.svg",
-    "main.fee43886.css.map": "/static/css/main.fee43886.css.map",
-    "main.485f52a7.js.map": "/static/js/main.485f52a7.js.map",
+    "main.6243f56b.css.map": "/static/css/main.6243f56b.css.map",
+    "main.137510d4.js.map": "/static/js/main.137510d4.js.map",
     "787.c8452334.chunk.js.map": "/static/js/787.c8452334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fee43886.css",
-    "static/js/main.485f52a7.js"
+    "static/css/main.6243f56b.css",
+    "static/js/main.137510d4.js"
   ]
 }
