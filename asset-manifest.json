@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6243f56b.css",
-    "main.js": "/static/js/main.137510d4.js",
+    "main.css": "/static/css/main.60b2e31e.css",
+    "main.js": "/static/js/main.75d8f336.js",
     "static/js/787.c8452334.chunk.js": "/static/js/787.c8452334.chunk.js",
-    "static/media/bogert_sophia_resume.pdf": "/static/media/bogert_sophia_resume.7c37227b7c45f94e87dd.pdf",
+    "static/media/bogert_sophia_resume.pdf": "/static/media/bogert_sophia_resume.16d4e671ae1109044096.pdf",
     "static/media/Zodiak-Variable.woff2": "/static/media/Zodiak-Variable.67186e4a886631b8e07d.woff2",
     "static/media/Array-Bold.woff2": "/static/media/Array-Bold.2367cacf4c46267acc6c.woff2",
     "static/media/Array-Semibold.woff2": "/static/media/Array-Semibold.711427aa93cf44d3e585.woff2",
     "static/media/Tabular-Variable.woff2": "/static/media/Tabular-Variable.362ceb8bad5b385594bc.woff2",
     "static/media/Array-Regular.woff2": "/static/media/Array-Regular.94115dd7a4e84d43fc8e.woff2",
+    "index.html": "/index.html",
     "static/media/java_logo_color.svg": "/static/media/java_logo_color.b825022ecaad9beb2aaf6f763b29dd8e.svg",
     "static/media/java_logo_green.svg": "/static/media/java_logo_green.3afb4baef71fab70c0cefb31a8b57286.svg",
     "static/media/cpp_logo_color.svg": "/static/media/cpp_logo_color.0228cb599839833ea13f59847c786999.svg",
@@ -25,17 +26,16 @@
     "static/media/github_logo_color.svg": "/static/media/github_logo_color.58011ce2703f88fd7e53ecb6b6cd5a5b.svg",
     "static/media/linkedin_logo_color.svg": "/static/media/linkedin_logo_color.a6dc9e8a53072c1a4dd5163240ab8181.svg",
     "static/media/linkedin_logo_neon.svg": "/static/media/linkedin_logo_neon.d701332cfecb5c6da4a143d43f74db53.svg",
-    "index.html": "/index.html",
     "static/media/tron-cursor.svg": "/static/media/tron-cursor.d64745728b68aa77d3ea.svg",
     "static/media/color-pointer.svg": "/static/media/color-pointer.a15a441a79c485745015.svg",
     "static/media/color-cursor.svg": "/static/media/color-cursor.f4e59a54650e4f42861b.svg",
     "static/media/tron-pointer.svg": "/static/media/tron-pointer.8bff0ce90dc7aa8d6f92.svg",
-    "main.6243f56b.css.map": "/static/css/main.6243f56b.css.map",
-    "main.137510d4.js.map": "/static/js/main.137510d4.js.map",
+    "main.60b2e31e.css.map": "/static/css/main.60b2e31e.css.map",
+    "main.75d8f336.js.map": "/static/js/main.75d8f336.js.map",
     "787.c8452334.chunk.js.map": "/static/js/787.c8452334.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6243f56b.css",
-    "static/js/main.137510d4.js"
+    "static/css/main.60b2e31e.css",
+    "static/js/main.75d8f336.js"
   ]
 }
