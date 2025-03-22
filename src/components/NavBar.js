@@ -70,11 +70,11 @@ export function NavBar({ isTron }) {
                         }
                         <ul className="nav-list">
                             {isTron ?
-                                <li><a className={"name"} href={"https://sophiabogert.com"}>SoBogert</a></li> :
+                                <li><a className={"name"} href={"https://sophiabogert.com"}>Sofi Bogert</a></li> :
                                 <li>
                                     <a className={"name"} href={"https://sophiabogert.com"}>
-                                        <div className={"name_outline"}>SoBogert</div>
-                                        <div className={"name_normal"}>SoBogert</div>
+                                        <div className={"name_outline"}>Sofi Bogert</div>
+                                        <div className={"name_normal"}>Sofi Bogert</div>
                                     </a>
                                 </li>
                             }

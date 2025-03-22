@@ -56,6 +56,10 @@
 .name {
     font-size: 44px !important;
 }
+
+.name, .name_normal, .name_outline {
+    white-space: nowrap;
+}
 .tron-theme .nav-list li a {
     font-family: 'Array-Regular', sans-serif;
     color: var(--tron-purple);

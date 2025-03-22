@@ -32,17 +32,14 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> MoveIntel Website </h3>
-                        <a href="https://icons8.com/icon/108784/javascript" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> A private website for a physical therapy platform to connect
                         practitioners with patients from anywhere.
@@ -66,17 +63,14 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Mark IV-B Website </h3>
-                        <a href="https://icons8.com/icon/108784/javascript" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> A private website for an Air Force program supported by Lockheed
                         Martin to check the live
@@ -99,17 +93,14 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> Premix Oil Calculator Site </h3>
-                        <a href="https://icons8.com/icon/13441/python" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ python_logo_green } alt="Python logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ python_logo_color } alt="Python logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ python_logo_green } alt="Python logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ python_logo_color } alt="Python logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> A private website for Sunderstorm Inc. to generate measurements for
                         use
@@ -133,17 +124,14 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Parkour&#39;s Edge </h3>
-                        <a href="https://icons8.com/icon/40669/c++" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ cpp_logo_green } alt="C++ logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ cpp_logo_color } alt="C++ logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ cpp_logo_color } alt="C++ logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> Built a multi-level 3D platformer game in C++ using the SDL library.
                         The game features a custom physics engine and a custom collision detection system.
@@ -165,17 +153,14 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Naive Bayes&#39; Classifier </h3>
-                        <a href="https://icons8.com/icon/40669/c++" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ cpp_logo_green } alt="C++ logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ cpp_logo_color } alt="C++ logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ cpp_logo_color } alt="C++ logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> Created a simple Naive Bayes&#39;Classifier to take in files of
                         data for training, and calculates probability for classifications
@@ -198,17 +183,14 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> USCDoorDrink App </h3>
-                        <a href="https://icons8.com/icon/13679/java" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ java_logo_green } alt="Java logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img src={ java_logo_color } alt="Java logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ java_logo_green } alt="Java logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img src={ java_logo_color } alt="Java logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> An Android app for USC students to order coffee or tea anywhere
                         near campus.
@@ -230,17 +212,14 @@ export function Projects({ isTron }) {
 
                     <div className="project-header">
                         <h3> Temperature Sensor </h3>
-                        <a href="https://icons8.com/icon/40670/c-programming" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ c_logo_green } alt="C logo by Icons8"
-                                         width={48} height={48}/>
-                                    :
-                                    <img src={ c_logo_color } alt="C logo by Icons8"
-                                         width={48} height={48}/>
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ c_logo_green } alt="C logo by Icons8"
+                                     width={48} height={48}/>
+                                :
+                                <img src={ c_logo_color } alt="C logo by Icons8"
+                                     width={48} height={48}/>
+                        }
                     </div>
                     <p className="project-content"> Built a temperature sensor and warning device compromised of an
                         Arduino, rotary encoder, DS18B20 temperature sensor, and various
@@ -264,18 +243,15 @@ export function Projects({ isTron }) {
                     }
                     <div className="project-header">
                         <h3> PDF Scraper </h3>
-                        <a href="https://icons8.com/icon/45490/c-sharp-logo-2" target="_blank"
-                           rel="noreferrer">
-                            {
-                                isTron ?
-                                    <img src={ cs_logo_green } alt="C# logo by Icons8"
-                                         width={48} height={48} />
-                                    :
-                                    <img
-                                         src={ cs_logo_color } alt="C# logo by Icons8"
-                                         width={48} height={48} />
-                            }
-                        </a>
+                        {
+                            isTron ?
+                                <img src={ cs_logo_green } alt="C# logo by Icons8"
+                                     width={48} height={48} />
+                                :
+                                <img
+                                     src={ cs_logo_color } alt="C# logo by Icons8"
+                                     width={48} height={48} />
+                        }
                     </div>
                     <p className="project-content"> A desktop application to scrape invoice data and export the parsed
                         data to the company's ERP software.
