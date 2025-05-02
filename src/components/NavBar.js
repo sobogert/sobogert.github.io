@@ -9,7 +9,7 @@ export function NavBar({ selectedTheme }) {
     const [showExit, setShowExit] = useState(false);
     const [showNavBox, setShowNavBox] = useState(false);
 
-    const isMobile = window.screen.width < 992;
+    const isMobile = window.screen.width < 1100;
 
     useEffect (() => {
         if (!isMobile) {

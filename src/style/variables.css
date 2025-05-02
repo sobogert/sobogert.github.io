@@ -1,6 +1,6 @@
 :root {
-    --color-theme-cursor-pointer: url("../assets/cursors/color-pointer.svg"), pointer;
-    --tron-theme-cursor-pointer: url("../assets/cursors/tron-pointer.svg"), pointer;
+    --color-theme-cursor-pointer:  pointer;
+    --tron-theme-cursor-pointer: pointer;
     --baby-blue: #70B8FF;
     --baby-blue-hover: #5C92C9;
     --dark-blue-text: #2E3C4E;

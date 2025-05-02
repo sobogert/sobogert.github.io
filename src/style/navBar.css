@@ -140,7 +140,7 @@
     color: var(--baby-blue-hover);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .top-bar {
         display: flex;
         justify-content: flex-end;

@@ -82,22 +82,22 @@ h2 {
   background: var(--tron-dark-blue);
   color: var(--tron-green);
   font-family: 'Tabular-Variable', monospace, sans-serif;
-  cursor: url("assets/cursors/tron-cursor.svg"), auto;
+  /*cursor: url("assets/cursors/tron-cursor.svg"), auto;*/
 }
 /* Color body theme */
 .color-theme {
   background: var(--cream);
   color: var(--black);
   font-family: 'Outfit', sans-serif;
-  cursor: url("assets/cursors/color-cursor.svg"), auto;
+  /*cursor: url("assets/cursors/color-cursor.svg"), auto;*/
 }
 .tron-theme a {
   text-decoration: none;
-  cursor: url("assets/cursors/tron-pointer.svg"), pointer;
+  /*cursor: url("assets/cursors/tron-pointer.svg"), pointer;*/
 }
 .color-theme a {
   text-decoration: none;
-  cursor: url("assets/cursors/color-pointer.svg"), pointer;
+  /*cursor: url("assets/cursors/color-pointer.svg"), pointer;*/
 }
 .outline {
   color: var(--lime-outline) !important;
@@ -120,7 +120,7 @@ h2 {
 .professional-theme .section {
   width: 80%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
   h1 {
     font-size: 70px;
   }

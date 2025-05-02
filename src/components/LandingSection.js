@@ -1,5 +1,5 @@
 import '../style/landingSection.css';
-import landingPagePicture from "../assets/images/landing_page_image.jpg";
+// import landingPagePicture from "../assets/images/landing_page_image.jpg";
 import landingPageSvg from "../assets/svgs/landing_page_me.svg";
 export function LandingSection({ selectedTheme }) {
 
