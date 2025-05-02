@@ -10,50 +10,56 @@ import {ContactMe} from "./components/ContactMe";
 import {Footer} from "./components/Footer";
 
 function App() {
-
   // Based on switch, change theme
-  let [isTron, setIsTron] = useState(false);
-  let [currTheme, setCurrTheme] = useState("color-theme");
+  let [selectedTheme, setSelectedTheme] = useState(1);
+  let [currTheme, setCurrTheme] = useState("professional-theme");
 
   // Update class based on switch
   useEffect(() => {
-    if (isTron) {
-      setCurrTheme("tron-theme");
+    switch (selectedTheme) {
+      case 1:
+        setCurrTheme("professional-theme");
+       break;
+      case 2:
+        setCurrTheme("color-theme");
+        break;
+      case 3:
+        setCurrTheme("tron-theme");
+        break;
+      default:
+        setCurrTheme("professional-theme");
     }
-    else {
-      setCurrTheme("color-theme");
-    }
-  }, [isTron])
+  }, [selectedTheme])
 
   return (
       <div className={"centered " + currTheme}>
         <div className="page">
-          <ThemeSwitch
-            isTron = {isTron}
-            setIsTron = {setIsTron}
-          />
-          <ToTop
-              isTron={isTron}
-          />
+          {/*<ThemeSwitch*/}
+          {/*  selectedTheme = {selectedTheme}*/}
+          {/*  setSelectedTheme = {setSelectedTheme}*/}
+          {/*/>*/}
+          {/*<ToTop*/}
+          {/*  selectedTheme = {selectedTheme}*/}
+          {/*/>*/}
           <NavBar
-            isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           {/*Location for top button to take user*/}
           <div id="top"></div>
           <LandingSection
-            isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           <AboutMe
-              isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           <Projects
-            isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           <FunThings
-              isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           <ContactMe
-              isTron={isTron}
+              selectedTheme = {selectedTheme}
           />
           <Footer />
         </div>

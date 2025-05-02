@@ -12,6 +12,10 @@
     display: flex;
     justify-content: center;
 }
+.professional-theme .text-footer {
+    font-weight: 900;
+    padding: 0;
+}
 .tron-theme .text-footer {
     font-family: 'Array-Regular', sans-serif;
     color: var(--tron-red);

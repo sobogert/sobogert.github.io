@@ -1,5 +1,8 @@
 @import './variables.css';
 
+.professional-theme #aboutMe {
+    margin-top: calc(-1 * var(--gradient-height));
+}
 .color-theme .about-me-title {
     color: var(--bright-red);
 }

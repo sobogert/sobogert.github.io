@@ -1,13 +1,13 @@
 import '../style/funThings.css';
 
-export function FunThings({ isTron }) {
+export function FunThings({ selectedTheme }) {
 
     return (
         <div className="section" id="fun">
             <h2 className={"fun-title"}>Some Things I Do for Fun</h2>
             <div className="fun-container">
                 {
-                    !isTron ?
+                    selectedTheme === 2 ?
                         <div className="fun-background"></div>
                         : null
                 }

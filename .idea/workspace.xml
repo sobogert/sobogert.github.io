@@ -2,14 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f582e269-7b29-41b9-92ce-2670e89a411a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Satoshi-Variable.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/landing_page_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-c++.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-c-programming.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-c-sharp-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-flask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-python.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-react-60.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logos/professional_logos/icons8-vuejs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/boogie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/landing_page_me.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/color_menu_exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cursors/color-cursor.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cursors/color-cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cursors/color-pointer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cursors/tron-cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cursors/tron-pointer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Array-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Array-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Array-Semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Tabular-Variable.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/c_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/cpp_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/cpp_logo_color_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/cs_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/github_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/java_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/javascript_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/linkedin_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/color_logos/python_logo_color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/c_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/cpp_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/cs_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/github_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/github_logo_neon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/github_logo_tron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/java_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/javascript_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/linkedin_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/linkedin_logo_neon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/linkedin_logo_tron.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logos/tron_logos/python_logo_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/tron_menu_exit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FunThings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FunThings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThemeSwitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/aboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/aboutMe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/landingSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/landingSection.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/navBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/navBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/themeSwitch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/themeSwitch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/variables.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +96,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sofib/sobogert.github.io/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sofib/sobogert.github.io/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sofib\sobogert.github.io\public" />
@@ -61,15 +119,18 @@
       <recent name="C:\Users\sofib\temp_sobogert_site\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sofib\sobogert.github.io\src\style" />
-      <recent name="C:\Users\sofib\sobogert.github.io\src" />
-      <recent name="C:\Users\sofib\sobogert.github.io\public" />
+      <recent name="C:\Users\sofib\sobogert.github.io\src\assets\logos\professional_logos" />
       <recent name="C:\Users\sofib\sobogert.github.io\src\assets\fonts" />
-      <recent name="C:\Users\sofib\sobogert.github.io\src\assets\cursors" />
+      <recent name="C:\Users\sofib\sobogert.github.io\src\assets\svgs" />
+      <recent name="C:\Users\sofib\sobogert.github.io\src\assets\images" />
+      <recent name="C:\Users\sofib\sobogert.github.io\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="LandingSection.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/LandingSection.js" working-dir="$PROJECT_DIR$/src/components">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -82,6 +143,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.LandingSection.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +173,9 @@
       <workItem from="1739582051886" duration="10547000" />
       <workItem from="1740937136271" duration="9962000" />
       <workItem from="1742437990360" duration="898000" />
-      <workItem from="1742528005268" duration="4901000" />
+      <workItem from="1742528005268" duration="5494000" />
+      <workItem from="1742668036642" duration="941000" />
+      <workItem from="1746128589700" duration="14477000" />
     </task>
     <servers />
   </component>

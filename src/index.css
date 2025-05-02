@@ -1,6 +1,12 @@
 @import 'style/fonts.css';
 @import './style/variables.css';
 
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-flow: column;
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +25,24 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: 600;
+}
+
+.professional-theme h1, .professional-theme h2 {
+  font-weight: 900;
+  font-family: Zodiak-Variable, serif;
+  color: var(--professional-black);
+}
+.professional-theme h1 {
+  font-size: 48px;
+}
+.professional-theme h2 {
+  font-size: 32px;
+}
+.professional-theme p, .professional-theme a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Satoshi-Variable, serif;
+  color: var(--professional-black);
 }
 .tron-theme h1, .tron-theme h2 {
   font-family: 'Array-Bold', sans-serif;
@@ -41,10 +65,17 @@ h2 {
   flex-flow:column nowrap;
   justify-content: center;
   align-items: center;
-  width: 84%;
+  width: 100%;
+  padding-inline: 7%;
   height: fit-content;
   background: none;
   margin-bottom: 60px;
+}
+.professional-theme {
+  background: var(--professional-light-green);
+  color: var(--professional-black);
+  font-family: Satoshi-Variable, sans-serif;
+  overflow-x: clip;
 }
 /* Tron body theme */
 .tron-theme {
@@ -86,11 +117,21 @@ h2 {
   width: 100%;
   padding-top: 102px;
 }
+.professional-theme .section {
+  width: 80%;
+}
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 70px;
   }
   .page {
     width: 88%;
+  }
+
+  .professional-theme h1 {
+    font-size: 32px;
+  }
+  .professional-theme h1 {
+    font-size: 28px;
   }
 }

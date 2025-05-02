@@ -1,27 +1,104 @@
 import '../style/projects.css';
-import c_logo_green from '../assets/logos/tron_logos/c_logo_green.svg';
-import c_logo_color from '../assets/logos/color_logos/c_logo_color.svg';
-import cs_logo_green from '../assets/logos/tron_logos/cs_logo_green.svg';
-import cs_logo_color from '../assets/logos/color_logos/cs_logo_color.svg';
-import cpp_logo_green from '../assets/logos/tron_logos/cpp_logo_green.svg';
-import cpp_logo_color from '../assets/logos/color_logos/cpp_logo_color.svg';
-import java_logo_green from '../assets/logos/tron_logos/java_logo_green.svg';
-import java_logo_color from '../assets/logos/color_logos/java_logo_color.svg';
-import javascript_logo_green from '../assets/logos/tron_logos/javascript_logo_green.svg';
-import javascript_logo_color from '../assets/logos/color_logos/javascript_logo_color.svg';
-import python_logo_green from '../assets/logos/tron_logos/python_logo_green.svg';
-import python_logo_color from '../assets/logos/color_logos/python_logo_color.svg';
+// import c_logo_green from '../assets/logos/tron_logos/c_logo_green.svg';
+// import c_logo_color from '../assets/logos/color_logos/c_logo_color.svg';
+// import cs_logo_green from '../assets/logos/tron_logos/cs_logo_green.svg';
+// import cs_logo_color from '../assets/logos/color_logos/cs_logo_color.svg';
+// import cpp_logo_green from '../assets/logos/tron_logos/cpp_logo_green.svg';
+// import cpp_logo_color from '../assets/logos/color_logos/cpp_logo_color.svg';
+// import java_logo_green from '../assets/logos/tron_logos/java_logo_green.svg';
+// import java_logo_color from '../assets/logos/color_logos/java_logo_color.svg';
+// import javascript_logo_green from '../assets/logos/tron_logos/javascript_logo_green.svg';
+// import javascript_logo_color from '../assets/logos/color_logos/javascript_logo_color.svg';
+// import python_logo_green from '../assets/logos/tron_logos/python_logo_green.svg';
+// import python_logo_color from '../assets/logos/color_logos/python_logo_color.svg';
+import cpp_logo_professional from '../assets/logos/professional_logos/icons8-c++.svg';
+import cs_logo_professional from '../assets/logos/professional_logos/icons8-c-sharp-logo.svg';
+import c_logo_professional from '../assets/logos/professional_logos/icons8-c-programming.svg';
+import flask_logo_professional from '../assets/logos/professional_logos/icons8-flask.svg';
+import java_logo_professional from'../assets/logos/professional_logos/icons8-java.svg';
+import vue_logo_professional from'../assets/logos/professional_logos/icons8-vuejs.svg';
+import react_logo_professional from'../assets/logos/professional_logos/icons8-react-60.svg';
 
-export function Projects({ isTron }) {
+
+export function Projects({ selectedTheme }) {
     return (
         <div className="section" id="projects">
             <h2>Projects</h2>
             <div className="projects-container">
 
+                {/* GWCC Consolidation project */}
+                <div className="project-box">
+                    {
+                        selectedTheme === 2 ?
+                            <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="314"
+                                 viewBox="0 0 402 314" fill="none" preserveAspectRatio="none">
+                                <path
+                                    d="M401.193 99.9085C401.193 84.6031 386.189 83.0937 381.892 68.704C375.078 45.8852 409.116 31.8536 387.316 11.7428C365.516 -8.36807 328.729 10.7486 315.435 19.3352C301.032 19.0988 295.649 0.714996 275.324 0.714996C255 0.714996 252.39 19.5437 237.325 19.3352C222.627 19.1317 218.826 0.714996 199.557 0.714996C180.289 0.714996 171.688 23.1791 157.103 23.4092C142.105 23.6459 137.317 0.714996 119.103 0.714996C100.89 0.714996 92.7192 19.4428 78.9927 23.4092C57.0332 29.7548 40 -16.466 9.83104 11.7428C-15.5098 35.4371 19.6607 45.3947 15.0855 68.704C12.4354 82.2051 5.90439 83.0197 1.46549 100.964C-2.97341 118.908 13.1872 122.765 15.0855 138.436C16.3811 149.131 0.0589831 165.296 1.46549 174.797C3.14406 186.135 14.2291 202.795 15.0855 210.157C16.1978 219.717 5.42515 224.269 1.46549 237.5C-1.33739 246.866 15.0855 261.5 15.0855 274.5C14.9086 283.327 1.08969 299.516 7.83104 306.173C31.1319 329.185 56.8757 288.597 78.9927 293.904C92.1073 297.051 99.3068 313.562 119.103 313.562C138.9 313.562 142.349 294.276 157.103 293.904C171.857 293.531 179.761 313.562 199.557 313.562C219.354 313.562 223.912 294.256 237.325 293.904C251.567 293.53 255.528 313.562 275.324 313.562C295.121 313.562 302.541 297.103 315.435 293.904C337.737 288.37 364.5 328.289 387.316 306.173C399.974 293.904 381.238 283.238 381.892 274.5C382.565 265.503 403.46 246.884 401.193 237.5C398.057 224.515 381.892 216.979 381.892 207.157C381.892 196.436 401.193 190.102 401.193 174.797C401.193 152.63 379.932 148.638 381.892 138.436C384.38 125.482 401.193 115.214 401.193 99.9085Z"
+                                    fill="#92C6FB"/>
+                            </svg>
+                            : null
+                    }
+                    <div className="project-header">
+                        <h3> GWCC Website </h3>
+                        {
+                            selectedTheme === 1 ?
+                                <img src={ cs_logo_professional } alt="C# logo by Icons8"
+                                     width={48} height={48} />
+                                : null
+                            // selectedTheme === 2 ?
+                            //     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
+                            //     :
+                            //     <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
+                        }
+                    </div>
+                    <p className="project-content"> A website built on .Net that consolidates 3 former sites into one,
+                        giving GPS operators a quick way to access integral satellite health data, and learn of any
+                        anomalies recorded by outside users. The site also introduces functionality for administrative
+                        users that allows them to have more control over text content, and manage users and groups in
+                        a more powerful way than previously possible.
+                    </p>
+                </div>
+
+                {/* VIBE project */}
+                <div className="project-box">
+                    {
+                        selectedTheme === 2 ?
+                            <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="314"
+                                 viewBox="0 0 402 314" fill="none" preserveAspectRatio="none">
+                                <path
+                                    d="M401.193 99.9085C401.193 84.6031 386.189 83.0937 381.892 68.704C375.078 45.8852 409.116 31.8536 387.316 11.7428C365.516 -8.36807 328.729 10.7486 315.435 19.3352C301.032 19.0988 295.649 0.714996 275.324 0.714996C255 0.714996 252.39 19.5437 237.325 19.3352C222.627 19.1317 218.826 0.714996 199.557 0.714996C180.289 0.714996 171.688 23.1791 157.103 23.4092C142.105 23.6459 137.317 0.714996 119.103 0.714996C100.89 0.714996 92.7192 19.4428 78.9927 23.4092C57.0332 29.7548 40 -16.466 9.83104 11.7428C-15.5098 35.4371 19.6607 45.3947 15.0855 68.704C12.4354 82.2051 5.90439 83.0197 1.46549 100.964C-2.97341 118.908 13.1872 122.765 15.0855 138.436C16.3811 149.131 0.0589831 165.296 1.46549 174.797C3.14406 186.135 14.2291 202.795 15.0855 210.157C16.1978 219.717 5.42515 224.269 1.46549 237.5C-1.33739 246.866 15.0855 261.5 15.0855 274.5C14.9086 283.327 1.08969 299.516 7.83104 306.173C31.1319 329.185 56.8757 288.597 78.9927 293.904C92.1073 297.051 99.3068 313.562 119.103 313.562C138.9 313.562 142.349 294.276 157.103 293.904C171.857 293.531 179.761 313.562 199.557 313.562C219.354 313.562 223.912 294.256 237.325 293.904C251.567 293.53 255.528 313.562 275.324 313.562C295.121 313.562 302.541 297.103 315.435 293.904C337.737 288.37 364.5 328.289 387.316 306.173C399.974 293.904 381.238 283.238 381.892 274.5C382.565 265.503 403.46 246.884 401.193 237.5C398.057 224.515 381.892 216.979 381.892 207.157C381.892 196.436 401.193 190.102 401.193 174.797C401.193 152.63 379.932 148.638 381.892 138.436C384.38 125.482 401.193 115.214 401.193 99.9085Z"
+                                    fill="#92C6FB"/>
+                            </svg>
+                            : null
+                    }
+                    <div className="project-header">
+                        <h3> VIBE Website </h3>
+                        {
+                            selectedTheme === 1 ?
+                                <img src={ cs_logo_professional } alt="C# logo by Icons8"
+                                     width={48} height={48} />
+                                : null
+                            // selectedTheme === 2 ?
+                            //     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
+                            //     :
+                            //     <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
+                        }
+                    </div>
+                    <p className="project-content"> A private website built on .Net that connects the GitLab states of
+                        different air gapped environments. I led the design and development of the frontend of the site,
+                        and helped build the backend of the site as well. VIBE creates custom XML files to send data
+                        between environments, and uses an SQL database to store GitLab environment states.
+                    </p>
+                </div>
+
                 {/* MoveIntel project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="314"
                                  viewBox="0 0 402 314" fill="none" preserveAspectRatio="none">
                                 <path
@@ -33,12 +110,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> MoveIntel Website </h3>
                         {
-                            isTron ?
-                                <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ vue_logo_professional } alt="VueJs logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                            // selectedTheme === 2 ?
+                            //     <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
+                            //     :
+                            //     <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                            //          width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> A private website for a physical therapy platform to connect
@@ -52,7 +133,7 @@ export function Projects({ isTron }) {
                 {/* Mark IV-B project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="314"
                                  viewBox="0 0 402 314" fill="none" preserveAspectRatio="none">
                                 <path
@@ -64,12 +145,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> Mark IV-B Website </h3>
                         {
-                            isTron ?
-                                <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ react_logo_professional } alt="React logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                            // selectedTheme === 2 ?
+                                // <img src={ javascript_logo_green } alt="JavaScript logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img src={ javascript_logo_color } alt="JavaScript logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> A private website for an Air Force program supported by Lockheed
@@ -82,7 +167,7 @@ export function Projects({ isTron }) {
                 {/* oil calculator project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="401" height="286"
                                  viewBox="0 0 401 286" fill="none" preserveAspectRatio="none">
                                 <path
@@ -94,12 +179,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> Premix Oil Calculator Site </h3>
                         {
-                            isTron ?
-                                <img src={ python_logo_green } alt="Python logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ flask_logo_professional } alt="Flask logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ python_logo_color } alt="Python logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ python_logo_green } alt="Python logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img src={ python_logo_color } alt="Python logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> A private website for Sunderstorm Inc. to generate measurements for
@@ -112,7 +201,7 @@ export function Projects({ isTron }) {
                 {/* parkour's edge  project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="401" height="288"
                                  viewBox="0 0 401 288" fill="none" preserveAspectRatio="none">
                                 <path
@@ -125,12 +214,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> Parkour&#39;s Edge </h3>
                         {
-                            isTron ?
-                                <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ cpp_logo_professional } alt="C++ logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ cpp_logo_color } alt="C++ logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img src={ cpp_logo_color } alt="C++ logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> Built a multi-level 3D platformer game in C++ using the SDL library.
@@ -141,25 +234,29 @@ export function Projects({ isTron }) {
                 {/* naive bayes classifier project */}
                 <div className="project-box">
                     {
-                        !isTron ?
-                            <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="401" height="288"
-                                 viewBox="0 0 401 288" fill="none" preserveAspectRatio="none">
-                                <path
-                                    d="M400.3 107.909C400.3 92.6031 385.296 90.0937 380.999 75.704C374.185 52.8852 408.223 30.8536 386.423 10.7428C364.623 -9.36807 327.836 9.7486 314.542 18.3352C300.139 18.0988 294.756 -0.285004 274.431 -0.285004C254.107 -0.285004 251.497 18.5437 236.432 18.3352C221.734 18.1317 217.933 -0.285004 198.664 -0.285004C179.396 -0.285004 170.795 22.1791 156.21 22.4092C141.212 22.6459 136.424 -0.285004 118.21 -0.285004C99.9972 -0.285004 91.8262 18.4428 78.0997 22.4092C56.1402 28.7548 35.2789 -12.9516 9.9381 10.7428C-15.4027 34.4371 17.7678 52.3947 13.1926 75.704C10.5425 89.2051 6.01145 91.0197 1.57255 108.964C-2.86635 126.908 11.2943 130.765 13.1926 146.436C14.4882 157.131 0.166042 172.296 1.57255 181.797C3.25112 193.135 12.3361 209.795 13.1926 214.157C17.6492 236.854 -13.3628 257.162 9.9381 280.173C33.239 303.185 55.9827 262.597 78.0997 267.904C91.2143 271.051 98.4139 287.562 118.21 287.562C138.007 287.562 141.456 268.276 156.21 267.904C170.964 267.531 178.868 287.562 198.664 287.562C218.461 287.562 223.019 268.256 236.432 267.904C250.674 267.53 254.635 287.562 274.431 287.562C294.228 287.562 301.648 271.103 314.542 267.904C336.845 262.37 356.825 303.606 380.999 280.173C405.173 256.741 380.999 237.971 380.999 214.157C380.999 203.436 400.3 197.102 400.3 181.797C400.3 159.63 379.039 156.638 380.999 146.436C383.487 133.482 400.3 123.214 400.3 107.909Z"
-                                    fill="#92C6FB"/>
-                            </svg>
-                            : null
+                            // selectedTheme === 2 ?
+                            // <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="401" height="288"
+                            //      viewBox="0 0 401 288" fill="none" preserveAspectRatio="none">
+                            //     <path
+                            //         d="M400.3 107.909C400.3 92.6031 385.296 90.0937 380.999 75.704C374.185 52.8852 408.223 30.8536 386.423 10.7428C364.623 -9.36807 327.836 9.7486 314.542 18.3352C300.139 18.0988 294.756 -0.285004 274.431 -0.285004C254.107 -0.285004 251.497 18.5437 236.432 18.3352C221.734 18.1317 217.933 -0.285004 198.664 -0.285004C179.396 -0.285004 170.795 22.1791 156.21 22.4092C141.212 22.6459 136.424 -0.285004 118.21 -0.285004C99.9972 -0.285004 91.8262 18.4428 78.0997 22.4092C56.1402 28.7548 35.2789 -12.9516 9.9381 10.7428C-15.4027 34.4371 17.7678 52.3947 13.1926 75.704C10.5425 89.2051 6.01145 91.0197 1.57255 108.964C-2.86635 126.908 11.2943 130.765 13.1926 146.436C14.4882 157.131 0.166042 172.296 1.57255 181.797C3.25112 193.135 12.3361 209.795 13.1926 214.157C17.6492 236.854 -13.3628 257.162 9.9381 280.173C33.239 303.185 55.9827 262.597 78.0997 267.904C91.2143 271.051 98.4139 287.562 118.21 287.562C138.007 287.562 141.456 268.276 156.21 267.904C170.964 267.531 178.868 287.562 198.664 287.562C218.461 287.562 223.019 268.256 236.432 267.904C250.674 267.53 254.635 287.562 274.431 287.562C294.228 287.562 301.648 271.103 314.542 267.904C336.845 262.37 356.825 303.606 380.999 280.173C405.173 256.741 380.999 237.971 380.999 214.157C380.999 203.436 400.3 197.102 400.3 181.797C400.3 159.63 379.039 156.638 380.999 146.436C383.487 133.482 400.3 123.214 400.3 107.909Z"
+                            //         fill="#92C6FB"/>
+                            // </svg>
+                            // : null
                     }
 
                     <div className="project-header">
                         <h3> Naive Bayes&#39; Classifier </h3>
                         {
-                            isTron ?
-                                <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ cpp_logo_professional } alt="C++ logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ cpp_logo_color } alt="C++ logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ cpp_logo_green } alt="C++ logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img src={ cpp_logo_color } alt="C++ logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> Created a simple Naive Bayes&#39;Classifier to take in files of
@@ -171,7 +268,7 @@ export function Projects({ isTron }) {
                 {/* drink delivery android app */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="215"
                                  viewBox="0 0 402 215" fill="none" preserveAspectRatio="none">
                                 <path
@@ -184,12 +281,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> USCDoorDrink App </h3>
                         {
-                            isTron ?
-                                <img src={ java_logo_green } alt="Java logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ java_logo_professional } alt="Java logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img src={ java_logo_color } alt="Java logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ java_logo_green } alt="Java logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img src={ java_logo_color } alt="Java logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> An Android app for USC students to order coffee or tea anywhere
@@ -200,7 +301,7 @@ export function Projects({ isTron }) {
                 {/* temperature sensor project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="401" height="313"
                                  viewBox="0 0 401 313" fill="none" preserveAspectRatio="none">
                                 <path
@@ -213,12 +314,16 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> Temperature Sensor </h3>
                         {
-                            isTron ?
-                                <img src={ c_logo_green } alt="C logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ c_logo_professional } alt="C logo by Icons8"
                                      width={48} height={48}/>
-                                :
-                                <img src={ c_logo_color } alt="C logo by Icons8"
-                                     width={48} height={48}/>
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ c_logo_green } alt="C logo by Icons8"
+                                //      width={48} height={48}/>
+                                // :
+                                // <img src={ c_logo_color } alt="C logo by Icons8"
+                                //      width={48} height={48}/>
                         }
                     </div>
                     <p className="project-content"> Built a temperature sensor and warning device compromised of an
@@ -232,7 +337,7 @@ export function Projects({ isTron }) {
                 {/* pdf scraper project */}
                 <div className="project-box">
                     {
-                        !isTron ?
+                        selectedTheme === 2 ?
                             <svg className="project-background" xmlns="http://www.w3.org/2000/svg" width="402" height="314"
                                  viewBox="0 0 402 314" fill="none" preserveAspectRatio="none">
                                 <path
@@ -244,13 +349,17 @@ export function Projects({ isTron }) {
                     <div className="project-header">
                         <h3> PDF Scraper </h3>
                         {
-                            isTron ?
-                                <img src={ cs_logo_green } alt="C# logo by Icons8"
+                            selectedTheme === 1 ?
+                                <img src={ cs_logo_professional } alt="C# logo by Icons8"
                                      width={48} height={48} />
-                                :
-                                <img
-                                     src={ cs_logo_color } alt="C# logo by Icons8"
-                                     width={48} height={48} />
+                                : null
+                                // selectedTheme === 2 ?
+                                // <img src={ cs_logo_green } alt="C# logo by Icons8"
+                                //      width={48} height={48} />
+                                // :
+                                // <img
+                                //      src={ cs_logo_color } alt="C# logo by Icons8"
+                                //      width={48} height={48} />
                         }
                     </div>
                     <p className="project-content"> A desktop application to scrape invoice data and export the parsed

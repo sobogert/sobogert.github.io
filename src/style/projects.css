@@ -23,6 +23,11 @@
     margin-inline: 2% 3%;
     color: var(--dark-blue-text);
 }
+.professional-theme .project-box {
+    background-color: #DFF595;
+    padding: 12px 26px;
+    border-radius: 16px;
+}
 .tron-theme .project-box {
     background-color: var(--tron-muted-dark-blue);
     border: 3px solid var(--tron-purple);
@@ -43,6 +48,9 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+}
+.professional-theme .project-header {
+    font-family: Zodiak-Variable, serif;
 }
 .color-theme .project-header {
     z-index: 2;

@@ -3,10 +3,38 @@
 .landing-page {
     position: relative;
     display: flex;
-    height: 100vh;
-    width: 100%;
+    height: calc(100vh + var(--gradient-height));
+    width: 100vw;
     justify-content: center;
     align-items: center;
+}
+.professional-theme .landing-page {
+    /*border-width: 30px;*/
+    /*border-style: solid;*/
+    /*border-image:*/
+    /*    linear-gradient(*/
+    /*            -90deg,*/
+    /*            var(--professional-green),*/
+    /*            var(--professional-white)*/
+    /*    ) bottom;*/
+    /*border-top: 0;*/
+    background: linear-gradient(180deg, var(--professional-green), var(--professional-light-green)) no-repeat bottom;
+    background-size:100% var(--gradient-height);
+
+}
+.professional-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.professional-theme .landing-page {
+    background-color: #D9F775;
+    margin-top: calc(-1 * var(--gradient-height));
+}
+.professional-landing .subtitle {
+    font-weight: 500;
+    color: #524E44;
 }
 .outline-thick {
     -webkit-text-stroke-width: 3px;
@@ -16,7 +44,10 @@
     left: 0;
     width: 100%;
 }
-.name-bar {
+.professional-theme .name-bar {
+    margin-bottom: 0;
+}
+.tron-theme .name-bar, .color-theme .name-bar {
     position: absolute;
     margin: 0;
     padding: 0;

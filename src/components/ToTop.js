@@ -1,12 +1,12 @@
 import '../style/toTop.css';
 
-export function ToTop({ isTron } ) {
+export function ToTop({ selectedTheme } ) {
 
     return (
         <div className="to-top-btn">
             {/*Display word for redirecting to top of page*/}
             {
-                isTron ?
+                selectedTheme === 3 ?
                     <a className="words" href="#top" >
                         TOP
                     </a> :
@@ -17,9 +17,6 @@ export function ToTop({ isTron } ) {
                     </svg>
                 </a>
             }
-
-
-
         </div>
     );
 }
